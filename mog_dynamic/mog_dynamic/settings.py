@@ -43,7 +43,8 @@ INSTALLED_APPS = [
     'shipping',
     'logistics',
     'crispy_forms',
-    
+    'ckeditor',
+    'ckeditor_uploader',
 ]
 
 MIDDLEWARE = [
@@ -134,7 +135,22 @@ MEDIA_URL = '/media/'
 STATICFILES_DIRS = (os.path.join(BASE_DIR, 'statics'),)
 MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
 
-#CRISPY_TEMPLATE_PACK='bootstrap4'
+# For ckeditor
+CKEDITOR_UPLOAD_PATH = "uploads/"
+CKEDITOR_CONFIGS = {
+    'default': {
+        'toolbar': 'Custom',
+        'toolbar_Custom': [
+            ['Bold', 'Italic', 'Underline'],
+            ['NumberedList', 'BulletedList', '-', 'Outdent', 'Indent', '-', 'JustifyLeft', 'JustifyCenter', 'JustifyRight', 'JustifyBlock'],
+            ['Link', 'Unlink'],
+            ['RemoveFormat', 'Source']
+        ],
+    },
+}
+
+
+CRISPY_TEMPLATE_PACK='bootstrap4'
 
 
 # Default primary key field type
@@ -144,22 +160,22 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 
 LOGGING = {
-    'version': 1,
-    'disable_existing_loggers': False,
-    'handlers': {
-        'my_log_handler': {
-            'level': 'DEBUG' if DEBUG else 'INFO',
-            'class': 'logging.FileHandler',
-            'filename': os.path.join(BASE_DIR, 'debug.log'),
-        },
+'version': 1,
+'disable_existing_loggers': False,
+'handlers': {
+    'my_log_handler': {
+        'level': 'DEBUG' if DEBUG else 'INFO',
+        'class': 'logging.FileHandler',
+        'filename': os.path.join(BASE_DIR, 'debug.log'),
     },
-    'loggers': {
-        'django': {
-            'handlers': ['my_log_handler'],
-            'level': 'DEBUG' if DEBUG else 'INFO',
-            'propagate': True,
-        },
+},
+'loggers': {
+    'django': {
+        'handlers': ['my_log_handler'],
+        'level': 'DEBUG' if DEBUG else 'INFO',
+        'propagate': True,
     },
+},
 }
 
 

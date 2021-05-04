@@ -22,9 +22,10 @@ from django.conf import settings
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('', include("shipping.urls")),
+    path('shipping/', include("shipping.urls")),
     path('logistics/', include("logistics.urls")),
-    #path('forex/', include("forex.urls"))
+    path('forex/', include("forex.urls")),
+    path('ckeditor/', include('ckeditor_uploader.urls')),
 ]
 
 

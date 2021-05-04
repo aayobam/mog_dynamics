@@ -1,3 +1,7 @@
 body{
     background-color: blue;
 }
+
+.body-class {
+    box-sizing: content-box;
+  }

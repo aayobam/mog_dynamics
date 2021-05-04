@@ -1,5 +1,7 @@
 from django.db import models
 import random
+from ckeditor.fields import RichTextField
+from ckeditor_uploader.fields import RichTextUploadingField
 
 
 
@@ -15,11 +17,11 @@ class Logistic(models.Model):
     receiver_address = models.CharField(max_length=500)
     receiver_phone_no = models.CharField(max_length=11)
     tracking_no = models.BigIntegerField(default=random_numbers)
-    item_description = models.TextField()
-    received_date = models.DateTimeField(auto_now_add=False)
-    delivery_date = models.DateTimeField(auto_now_add=False)
+    item_description = RichTextField(blank=True, null=True)
+    received_date = models.DateTimeField(auto_now=True)
+    delivery_date = models.DateField(auto_now_add=True)
     received = models.BooleanField(default=False)
-    out_for_deliver= models.BooleanField(default=False)
+    in_transit = models.BooleanField(default=False)
     delivered = models.BooleanField(default=False)
 
 
