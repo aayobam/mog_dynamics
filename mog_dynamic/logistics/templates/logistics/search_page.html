@@ -1,0 +1,18 @@
+{% extends 'base.html' %}
+{% load crispy_forms_tags %}
+
+
+{% block content %}
+<div class="container search-wrapper">
+  <h3 class="d-flex justify-content-center mt-5">Track Your Shipping</h3>
+  <div class="tracking-page d-flex justify-content-center mt-3">
+    <div class="d-flex justify-content-center">
+      <form action="{% url 'logistics_result' %}" method="get">
+        <input id="shipping-search" name="q" type="text" placeholder="Supply Tracking Number" />
+        <input id="shipping-btn" type="submit" value="Track Shipping" class="btn btn-success d-flex mt-2" />
+      </form>
+    </div>
+  </div>
+</div>
+
+{% endblock content %}

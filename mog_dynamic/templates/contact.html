@@ -1,0 +1,42 @@
+{% extends 'base.html' %}
+{% load static %}
+
+
+
+{% block content %}
+<div>
+    <main role="main" class="container background-gold">
+        <div class="row row-height row-padding justify-content-center">
+            <div class="body-text mt-3 text-center">
+                <h1>CONTACT US</h1>
+                <p>Kickstart your investment and items shipping by reaching out to us through any of the medium below.
+                </p>
+            </div>
+
+            <div class="text-color-gold bg-dark mb-5 col-md-4 mr-5 contact-form" style="max-width: 18rem;">
+                <div class="card-body">
+                    <img src="{% static 'img/telephone.svg' %}" alt="phone image">
+                    <h5 class="card-title">Phone</h5>
+                    <a href="tel: +2348012345678">+234 801-234-5678</a>
+                </div>
+            </div>
+
+            <div class="text-dark bg-warning mb-5 col-md-4 contact-form" style="max-width: 18rem;">
+                <div class="card-body mr-5">
+                    <img src="{% static 'img/mail.svg' %}" alt="mail image">
+                    <h5 class="card-title">Email</h5>
+                    <a href="mailto:support@boommulticoncept.com">Send a mail</a>
+                </div>
+            </div>
+
+            <div class="text-color-gold bg-dark mb-5 col-md-4" style="max-width: 18rem;">
+                <div class="card-body">
+                    <img src="{% static 'img/whatsapp.svg' %}" alt="phone image">
+                    <h5 class="card-title">Whatsapp</h5>
+                    <a href="https://wa.me/2348012345678">Send a message</a>
+                </div>
+            </div>
+        </div>
+    </main>
+</div>
+{% endblock %}

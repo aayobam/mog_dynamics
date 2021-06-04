@@ -1,8 +1,8 @@
 from django.urls import path
-from .views import logistics_view
-
+from .views import SearchResultView, SearchPageView
 
 
 urlpatterns = [
-     path('tracking/', logistics_view, name="logisitics")
+    path('search-page/', SearchPageView.as_view(), name="logistics_search"),
+    path('tracking-result/', SearchResultView.as_view(), name="logistics_result"),
 ]

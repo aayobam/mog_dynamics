@@ -1,0 +1,38 @@
+{% extends 'base.html' %}
+<title>{% block head_title %} Tracking Result{% endblock head_title %}</title>
+
+
+
+
+{% block content %}
+<div class="container">
+    <div class="search-result table-responsive">
+        <h2 class="d-flex justify-content-center">Shipping Information</h2>
+        {% for status in shippingstatus %}
+        <table class="table align-middle table-sm">
+            <thead class="table-primary">
+                <tr>
+                    <th scope="col">Sender Name</th>
+                    <th scope="col">Tracking No</th>
+                    <th scope="col">Item Description</th>
+                    <th scope="col">Picked On</th>
+                    <th scope="col">Status</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="table-secondary">
+                    <td>{{status.sender_name}}</td>
+                    <td>{{status.tracking_no}}</td>
+                    <td>{{status.items_description|safe}}</td>
+                    <td>{{status.picked_on}}</td>
+                    <td>{{status.status}}</td>
+                </tr>
+            </tbody>
+        </table>
+        {% endfor %}
+        <div class="d-flex justify-content-center">
+            <a href="{% url 'shipping_search' %}" class="btn btn-primary">Track a different shipment</a>
+        </div>
+    </div>
+</div>
+{% endblock content%}

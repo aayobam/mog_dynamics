@@ -5,9 +5,6 @@ import django_heroku
 import whitenoise
 
 
-
-
-
 env = environ.Env()
 environ.Env.read_env()
 
@@ -42,9 +39,10 @@ INSTALLED_APPS = [
     'forex',
     'shipping',
     'logistics',
-    'crispy_forms',
     'ckeditor',
     'ckeditor_uploader',
+    'phone_field',
+    'computed_property',
 ]
 
 MIDDLEWARE = [
@@ -84,10 +82,10 @@ WSGI_APPLICATION = 'mog_dynamic.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
-        'NAME': 'Mogdb', 
-        'USER': 'postgres', 
+        'NAME': 'Mogdb',
+        'USER': 'postgres',
         'PASSWORD': 'Billy@01',
-        'HOST': '127.0.0.1', 
+        'HOST': '127.0.0.1',
         'PORT': '5432',
     }
 }
@@ -132,8 +130,9 @@ USE_TZ = True
 STATIC_URL = '/static/'
 MEDIA_URL = '/media/'
 
-STATICFILES_DIRS = (os.path.join(BASE_DIR, 'statics'),)
+STATICFILES_DIRS = (os.path.join(BASE_DIR, 'static'),)
 MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
+
 
 # For ckeditor
 CKEDITOR_UPLOAD_PATH = "uploads/"
@@ -142,7 +141,8 @@ CKEDITOR_CONFIGS = {
         'toolbar': 'Custom',
         'toolbar_Custom': [
             ['Bold', 'Italic', 'Underline'],
-            ['NumberedList', 'BulletedList', '-', 'Outdent', 'Indent', '-', 'JustifyLeft', 'JustifyCenter', 'JustifyRight', 'JustifyBlock'],
+            ['NumberedList', 'BulletedList', '-', 'Outdent', 'Indent', '-',
+                'JustifyLeft', 'JustifyCenter', 'JustifyRight', 'JustifyBlock'],
             ['Link', 'Unlink'],
             ['RemoveFormat', 'Source']
         ],
@@ -150,7 +150,7 @@ CKEDITOR_CONFIGS = {
 }
 
 
-CRISPY_TEMPLATE_PACK='bootstrap4'
+CRISPY_TEMPLATE_PACK = 'bootstrap4'
 
 
 # Default primary key field type
@@ -160,22 +160,22 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 
 LOGGING = {
-'version': 1,
-'disable_existing_loggers': False,
-'handlers': {
-    'my_log_handler': {
-        'level': 'DEBUG' if DEBUG else 'INFO',
-        'class': 'logging.FileHandler',
-        'filename': os.path.join(BASE_DIR, 'debug.log'),
+    'version': 1,
+    'disable_existing_loggers': False,
+    'handlers': {
+        'my_log_handler': {
+            'level': 'DEBUG' if DEBUG else 'INFO',
+            'class': 'logging.FileHandler',
+            'filename': os.path.join(BASE_DIR, 'debug.log'),
+        },
     },
-},
-'loggers': {
-    'django': {
-        'handlers': ['my_log_handler'],
-        'level': 'DEBUG' if DEBUG else 'INFO',
-        'propagate': True,
+    'loggers': {
+        'django': {
+            'handlers': ['my_log_handler'],
+            'level': 'DEBUG' if DEBUG else 'INFO',
+            'propagate': True,
+        },
     },
-},
 }
 
 

@@ -1,36 +1,46 @@
 from django.contrib import admin
 from .models import Logistic
-
-
+from django.utils import timezone
+from django.contrib.auth.models import Group
 
 
 @admin.register(Logistic)
 class AdminLogistics(admin.ModelAdmin):
 
     list_display = (
-        "id","sender_name","sender_address","sender_phone_no","receiver_name","receiver_address",
-        "receiver_phone_no","tracking_no","item_description","received_date","delivery_date",
-        "received","in_transit","delivered"
+        "sender_name", "sender_address", "sender_phone_no", "receiver_name", "receiver_address",
+        "receiver_phone_no", "tracking_no", "item_description", "received_date", "delivery_date", "status"
     )
-    
-    readonly_fields = ("tracking_no", "received_date", "delivery_date")
+
+    readonly_fields = ("tracking_no", "status")
     list_filter = ("tracking_no",)
     search_fields = ("tracking_no", "sender_phone_no", "receiver_phone_no")
-    actions = ["received", "transit","delivered"]
-
+    actions = ["received", "transit", "delivered", "delivery_date",
+               "wrong_delivery_address", "unable_to_locate_address", "unable_to_contact_receiver"]
+    actions_selection_counter = True
 
     # return true for approved fields
-    def received(self, request,queryset):
-        return queryset.update(received=True)
 
+    def received(self, request, queryset):
+        return queryset.update(status="Received")
 
     def transit(self, request, queryset):
-        return queryset.update(in_transit=True)
-
+        return queryset.update(status="In Transit")
 
     def delivered(self, request, queryset):
-        return queryset.update(delivered=True)
+        return queryset.update(status="Delivered")
 
+    def delivery_date(self, request, queryset):
+        return queryset.update(delivery_date=timezone.now())
 
+    def wrong_delivery_address(self, request, queryset):
+        message = "Wrong Delivery Address"
+        return queryset.update(status=message)
 
+    def unable_to_locate_address(self, request, queryset):
+        message = "Unable to Locate Address"
+        return queryset.update(status=message)
 
+    def unable_to_contact_receiver(self, request, queryset):
+        message = "Unable to Contact Receiver"
+        return queryset.update(status=message)

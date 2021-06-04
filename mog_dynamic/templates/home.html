@@ -1,0 +1,99 @@
+{% extends 'base.html' %}
+{% load static %}
+
+
+
+{% block content %}
+<main role="main" class="container background-gold">
+    <div class="row row-height row-padding">
+        <div class="col-md-5 body-text mt-5">
+            <h1 class="text-center">Freedom and stability</h1>
+            <p>
+                Our major focus is to build a financial system, by helping you invest and yield massive returns
+                on
+                your
+                investment. we plan to facilitate and enhance your financial processes with a mind blowing
+                interest
+                rate
+                that
+                helps you put your mind to rest, you are in the right place to create your financial freedom.
+            </p>
+            <a href="{% url 'contact-us'%}" class="btn background-black text-color-gold">Get Started</a>
+        </div>
+
+        <div class="col-md-7">
+            <div class="">
+                <img src="{% static 'img/vector-illustration.svg' %}" alt="Body Image" class="responsive-img">
+            </div>
+        </div>
+
+    </div>
+</main>
+
+<main role="main" class="container background-black text-color-gold">
+    <h1 class="text-center pt-5">Why invest with MOG Dynamics</h1>
+    <div class="row text-center row-height row-padding">
+        <div class="col-md-4 body-text">
+            <img src="{% static 'img/value.svg' %}" alt="" class="mb-4">
+            <h3 class="text-center">Enjoy all MOG Dynamics perks</h3>
+            <p>
+                With a host of promotions and benefits on offer including our Loyalty Programme, enjoy trading with more
+                fun and fewer costs* than ever before.<br>
+                *T&Cs apply.
+            </p>
+        </div>
+
+        <div class="col-md-4 body-text row-padding">
+            <img src="{% static 'img/mark.svg' %}" alt="" class="mb-4">
+            <h3>Safe, secure and totally transparent</h3>
+            <p>
+                " The safety of your funds is our top priority, which is why we store all our client money in segregated
+                bank accounts, and offer negative balance protection on accounts with instant and market execution."
+            </p>
+        </div>
+
+        <div class="col-md-4 body-text row-padding">
+            <img src="{% static 'img/clock.svg' %}" alt="" class="mb-4">
+            <h3>Convenient Withdrawals and 24/7 Support</h3>
+            <p>
+                Withdraw your money in an instant using a wide range of available payment systems and a team of
+                professionals speaking your mother's tongue are always here to support you.
+            </p>
+        </div>
+
+    </div>
+</main>
+
+<main class="container background-gold mb-4 text-color-black">
+    <h1 class="text-center pt-4 border-bottom-left">How it works</h1>
+    <div class="text-center row-height row-padding">
+        <div class="row">
+            <div class="col-md-4">
+                <h1>1</h1>
+                <div class="border-bottom_style"></div>
+                <h4>Sign Up</h4>
+                <p>Create an account for free using your email address.</p>
+            </div>
+
+            <div class="col-md-4">
+                <h1>2</h1>
+                <div class="border-bottom_style"></div>
+                <h4>Explore the platform</h4>
+                <p>See what it's like to invest without putting your money at risk.</p>
+            </div>
+
+            <div class="col-md-4 mb-5">
+                <h1>3</h1>
+                <div class="border-bottom_style"></div>
+                <h4>Invest & earn profit</h4>
+                <p>Select an asset and make your money work for you.</p>
+            </div>
+        </div>
+        <div class="btn-contact">
+            <a href="{% url 'contact-us' %}" class="btn mt-3 mb-4 background-black text-color-gold">Contact
+                Us</a>
+        </div>
+
+    </div>
+</main>
+{% endblock %}

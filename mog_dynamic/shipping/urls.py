@@ -1,7 +1,8 @@
 from django.urls import path
-from .views import home_view
+from .views import SearchResultView,  SearchPageView
 
 
 urlpatterns = [
-    path('', home_view, name="homepage"),
+    path('track-shipment/', SearchPageView.as_view(), name="shipping_search"),
+    path('tracking-result/', SearchResultView.as_view(), name="shipping_result"),
 ]

@@ -1,0 +1,19 @@
+{% extends 'base.html' %}
+<title>{% block head_title %}Shipment Tracking{% endblock head_title %}</title>
+
+
+{% block content %}
+<main class="container background-gold text-color-black">
+  <div class="row row-height row-padding justify-content-center">
+    <div class="col-md-5 body-text mt-5 search-result">
+      <h2>Track Shipment</h2>
+      <form action="{% url 'shipping_result' %}" method="get">
+        <input id="shipping-search" name="q" type="text" placeholder="Supply Tracking Number" />
+        <input id="shipping-btn" type="submit" value="Track Shipment"
+          class="btn background-black text-color-gold mt-3 pt-1 pb-2" />
+      </form>
+    </div>
+  </div>
+</main>
+
+{% endblock content %}

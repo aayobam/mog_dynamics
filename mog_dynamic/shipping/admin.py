@@ -7,22 +7,20 @@ from .models import ShippingDetail
 @admin.register(ShippingDetail)
 class AdminShipping(admin.ModelAdmin):
     list_display = (
-        "id", "sender_name", "items_description", "shipping_fee", "tracking_no", "received_date", 
-        "pending", "arrived", "picked_up"
+        "id", "sender_name", "items_description", "shipping_fee", "tracking_no", "received_date", "picked_on",
+        "status"
     )
-    readonly_fields = ("tracking_no",)
+    readonly_fields = ("tracking_no", "status")
     list_filter = ("sender_name", "tracking_no")
     search_fields = ("id", "sender_name", "tracking_no")
     actions = ["pending", "arrived", "picked_up"]
 
-
     # return true for approved fields
-    def pending(self, request,queryset):
-        return queryset.update(pending=True)
+    def pending(self, request, queryset):
+        return queryset.update(status="Pending")
 
     def arrived(self, request, queryset):
-        return queryset.update(arrived=True)
+        return queryset.update(status="Arrived")
 
     def picked_up(self, request, queryset):
-        return queryset.update(picked_up=True)
-    
+        return queryset.update(status="Picked Up")
