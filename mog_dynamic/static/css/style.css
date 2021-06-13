@@ -93,13 +93,6 @@ p{
   text-align: center;
 }
 
-#shipping-btn{
-  text-align:center;
-  border-radius: 7px;
-  width: 270px;
-  height: 40px;
-  padding: 25px;
-}
 
 #shipping-search:hover{
   border-color: black;
@@ -110,6 +103,9 @@ p{
   background-image: linear-gradient(rgb(255,215,0)) !important;
 }
 
+.capitalizing{
+  text-transform: capitalize;
+}
 
 
 /* Site home page */

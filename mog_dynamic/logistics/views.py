@@ -1,4 +1,4 @@
-from django.shortcuts import render, HttpResponse, redirect
+from django.shortcuts import HttpResponse, redirect
 from .models import Logistic
 from django.views.generic import ListView, TemplateView
 from django.db.models import Q
@@ -14,7 +14,7 @@ class SearchResultView(ListView):
     model = Logistic
     template_name = "logistics/logistic_result.html"
     context_object_name = "logistics"
-    successful_url = "not_found"
+    
 
     def get_queryset(self):
         query = self.request.GET.get('q')
@@ -22,6 +22,5 @@ class SearchResultView(ListView):
             logistics = Logistic.objects.filter(
                 Q(tracking_no__icontains=query)
             )
-            time.sleep(1)
             return logistics
-        return None
+        return False

@@ -19,6 +19,7 @@ class AdminLogistics(admin.ModelAdmin):
                "wrong_delivery_address", "unable_to_locate_address", "unable_to_contact_receiver"]
     actions_selection_counter = True
 
+
     # return true for approved fields
 
     def received(self, request, queryset):

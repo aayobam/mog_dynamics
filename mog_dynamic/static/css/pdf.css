@@ -43,3 +43,22 @@ h3{
     line-height:24.5px;
     font-weight: lighter;
 }
+
+.salary-capitalizing{
+    text-transform: capitalize;
+    line-height: 30px;
+}
+
+.fixed-capitalizing{
+    text-transform: capitalize;
+    line-height: 14px;
+    margin-top: 26px;
+}
+
+.padding-right{
+    padding-right: 80px;
+}
+
+.padding-left{
+    padding-left: 80px;
+}
