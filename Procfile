@@ -1,1 +1,1 @@
-web: gunicorn mog_dynamics.wsgi --log-file -
+web: gunicorn mog_dynamic.wsgi --log-file -
