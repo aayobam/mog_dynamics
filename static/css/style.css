@@ -207,8 +207,11 @@ p{
     margin-top: -50px;
   }
 
-  .mt-30px{
+  .mt-5px{
     margin-top: -5px;
+  }
+  .mt-32px{
+    margin-top: -32px;
   }
 }
 
