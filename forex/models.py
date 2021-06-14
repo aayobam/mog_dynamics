@@ -12,6 +12,7 @@ class SalaryPackage(models.Model):
 
     investor_name = models.CharField(max_length=150)
     phone_no = PhoneField(blank=True, help_text='Contact phone number')
+    email = models.EmailField(max_length=100)
     capital = models.FloatField(null=False, blank=False, default=0)
 
     percentage = models.CharField(max_length=5, default="15 %")
@@ -46,6 +47,7 @@ class FixedPackage3Month(models.Model):
 
     investor_name = models.CharField(max_length=150)
     phone_no = PhoneField(blank=True, help_text='Contact phone number')
+    email = models.EmailField(max_length=100)
     capital = models.FloatField(null=False, blank=False, default=0)
 
     percentage = models.CharField(max_length=5, default="45 %")
@@ -73,6 +75,7 @@ class FixedPackage6Month(models.Model):
 
     investor_name = models.CharField(max_length=150)
     phone_no = PhoneField(blank=True, help_text='Contact phone number')
+    email = models.EmailField(max_length=100)
     capital = models.FloatField(null=False, blank=False, default=0)
 
     percentage = models.CharField(max_length=5, default="90 %")
@@ -99,6 +102,7 @@ class FixedPackage9Month(models.Model):
 
     investor_name = models.CharField(max_length=150)
     phone_no = PhoneField(blank=True, help_text='Contact phone number')
+    email = models.EmailField(max_length=100)
     capital = models.FloatField(null=False, blank=False, default=0)
 
     percentage = models.CharField(max_length=5, default="140 %")
@@ -126,6 +130,7 @@ class FixedPackage12Month(models.Model):
 
     investor_name = models.CharField(max_length=150)
     phone_no = PhoneField(blank=True, help_text='Contact phone number')
+    email = models.EmailField(max_length=100)
     capital = models.FloatField(null=False, blank=False, default=0)
 
     percentage = models.CharField(max_length=5, default="200 %")

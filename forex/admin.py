@@ -3,27 +3,32 @@ from django.utils import timezone
 from django.shortcuts import reverse
 from django.utils.safestring import mark_safe
 
+
 from .models import (
     SalaryPackage,
     FixedPackage3Month,
     FixedPackage6Month,
     FixedPackage9Month,
     FixedPackage12Month,
+    
 )
+
+
+def send_email_to_investment(self):
+    return mark_safe('<a href="{}" style="background:red;" class="button">SEND MAIL</a>'.format(reverse('send-email', args=[self.pk])))
+send_email_to_investment.short_description = 'send mail'
 
 
 # This displays the PDf link to print record of the row using the row id or pk
 def investment_pdf_salary(self):
     return mark_safe('<a href="{}" style="background:red;" class="button">PRINT RECORD</a>'.format(reverse('salary_package', args=[self.pk])))
-
-
 investment_pdf_salary.short_description = 'Investment Invoice'
 
 
 @admin.register(SalaryPackage)
 class AdminSalary3month(admin.ModelAdmin):
-    list_display = ("investor_name", "phone_no", "capital", "percentage", "duration", "investment_date", "monthly_payment",
-                    "first_payment", "payment_date_1", "second_payment", "payment_date_2", "third_payment", "payment_date_3", "reference_no", investment_pdf_salary)
+    list_display = ("investor_name", "phone_no", "email","capital", "percentage", "duration", "investment_date", "monthly_payment",
+                    "first_payment", "payment_date_1", "second_payment", "payment_date_2", "third_payment", "payment_date_3", "reference_no", investment_pdf_salary, send_email_to_investment)
 
     readonly_fields = ("percentage", "monthly_payment", "first_payment", "payment_date_1", "second_payment",
                        "payment_date_2", "third_payment", "payment_date_3", "reference_no", "duration")
@@ -66,7 +71,7 @@ investment_pdf_3months.short_description = 'Investment Invoice'
 
 @admin.register(FixedPackage3Month)
 class AdminFixedPackage3Month(admin.ModelAdmin):
-    list_display = ("investor_name", "phone_no", "capital", "percentage", "duration",
+    list_display = ("investor_name", "phone_no", "email", "capital", "percentage", "duration",
                     "date", "returns", "returns_payout_date", "payout_status", "reference_no", investment_pdf_3months)
 
     list_filter = ("reference_no", "investor_name", "date")
@@ -94,7 +99,7 @@ investment_pdf_6months.short_description = 'Investment Invoice'
 
 @admin.register(FixedPackage6Month)
 class AdminFixedPackage6Month(admin.ModelAdmin):
-    list_display = ("investor_name", "phone_no", "capital", "percentage", "duration",
+    list_display = ("investor_name", "phone_no", "email", "capital", "percentage", "duration",
                     "date", "returns", "returns_payout_date", "payout_status", "reference_no", investment_pdf_6months)
 
     list_filter = ("reference_no", "investor_name", "date")
@@ -122,7 +127,7 @@ investment_pdf_9months.short_description = 'Investment Invoice'
 
 @admin.register(FixedPackage9Month)
 class AdminFixedPackage9Month(admin.ModelAdmin):
-    list_display = ("investor_name", "phone_no", "capital", "percentage", "duration",
+    list_display = ("investor_name", "phone_no", "email", "capital", "percentage", "duration",
                     "date", "returns", "returns_payout_date", "payout_status", "reference_no", investment_pdf_9months)
 
     list_filter = ("reference_no", "investor_name", "date")
@@ -150,7 +155,7 @@ investment_pdf_12months.short_description = 'Investment Invoice'
 
 @admin.register(FixedPackage12Month)
 class AdminFixedPackage12Month(admin.ModelAdmin):
-    list_display = ("investor_name", "phone_no", "capital", "percentage", "duration",
+    list_display = ("investor_name", "phone_no", "email", "capital", "percentage", "duration",
                     "date", "returns", "returns_payout_date", "payout_status", "reference_no", investment_pdf_12months)
 
     list_filter = ("reference_no", "investor_name", "date")

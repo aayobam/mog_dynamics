@@ -2,6 +2,8 @@ from django.shortcuts import get_object_or_404, HttpResponse
 from django.template.loader import render_to_string
 from django.contrib.admin.views.decorators import staff_member_required
 from django.conf import settings
+from django.core.mail import send_mail
+from django.contrib import messages
 import weasyprint
 from .models import (
     FixedPackage3Month,
@@ -80,3 +82,17 @@ def salarypackage_pdf_view(request, pk):
     weasyprint.HTML(string=html, base_url=request.build_absolute_uri()).write_pdf(
         response, stylesheets=[weasyprint.CSS(settings.STATIC_ROOT + "/css/pdf.css")])
     return response
+
+
+def send_email(request, pk):
+    salarypackage = get_object_or_404(SalaryPackage, pk=pk)
+    for salary in salarypackage:
+        client_email = salary.email
+        send_mail(
+            'SUBSCRIPTION MAIL',
+            'mail subject.',
+            'liomes8016@gmail.com',
+            [str(client_email)],
+            fail_silently=False,
+        )
+        return HttpResponse("mail successfully sent".upper())

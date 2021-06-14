@@ -190,9 +190,30 @@ p{
   text-align: left;
 }
 
+.mt-50px{
+  margin-top:0px;
+}
+
+.mt-30px{
+  margin-top: 0px;
+}
+
+.mb-50px{
+  margin-bottom: -50px;
+}
+
+@media only screen and (max-width: 767px){
+  .mt-50px{
+    margin-top: -50px;
+  }
+
+  .mt-30px{
+    margin-top: -5px;
+  }
+}
+
 
 /*footer text */
-
 .mb-footer{
   color:white;
 }
