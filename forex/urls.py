@@ -4,7 +4,7 @@ from .views import (
     fixed6months_pdf_view,
     fixed9months_pdf_view,
     fixed12months_pdf_view,
-    salarypackage_pdf_view,
+    salarypackage_pdf_view
 )
 
 urlpatterns = [

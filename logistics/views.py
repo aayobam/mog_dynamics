@@ -1,11 +1,11 @@
 from django.urls.base import reverse_lazy
-import time
 from .models import Logistic
 from django.shortcuts import render, redirect
 from django.contrib.auth.forms import AuthenticationForm
 from django.contrib.auth import login, logout
 from django.contrib import messages
 from django.views.generic import TemplateView, ListView, UpdateView
+from django.contrib.auth.mixins import LoginRequiredMixin
 from django.db.models import Q
 
 
@@ -32,11 +32,11 @@ class SearchResultView(ListView):
 
 # for dispatch riders views and updates
 
-class DispatchRiderSearchView(TemplateView):
+class DispatchRiderSearchView(LoginRequiredMixin,TemplateView):
     template_name = "logistics/dispatch_search.html"
 
 
-class DispatchRiderListView(ListView):
+class DispatchRiderListView(LoginRequiredMixin, ListView):
     model = Logistic
     template_name = "logistics/dispatch_result.html"
     context_object_name = "logistics"
@@ -48,19 +48,18 @@ class DispatchRiderListView(ListView):
             logistics = Logistic.objects.filter(
                 Q(tracking_no__icontains=query)
             )
-            messages.info(self.request, f"Record Found")
             return logistics
         return False
 
 
-class DispatchRiderUpdateView(UpdateView):
+class DispatchRiderUpdateView(LoginRequiredMixin, UpdateView):
     template_name = "logistics/dispatch_update.html"
     model = Logistic
     fields = ["status"]
     success_url = reverse_lazy('dispatch_search')
 
     def form_valid(self, form):
-        messages.success(self.request, f"delivery info updated successfully")
+        messages.success(self.request, f"Delivery info updated successfully")
         return super().form_valid(form)
 
 
