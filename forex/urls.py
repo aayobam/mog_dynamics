@@ -5,7 +5,6 @@ from .views import (
     fixed9months_pdf_view,
     fixed12months_pdf_view,
     salarypackage_pdf_view,
-    send_email
 )
 
 urlpatterns = [
@@ -14,5 +13,4 @@ urlpatterns = [
     path('<int:pk>/9-monts-package/', fixed9months_pdf_view, name="9_months"),
     path('<int:pk>/12-monts-package/', fixed12months_pdf_view, name="12_months"),
     path('<int:pk>/salary-package/', salarypackage_pdf_view, name="salary_package"),
-    path('<int:pk>/sendmail/', send_email, name="send-mail"),
 ]

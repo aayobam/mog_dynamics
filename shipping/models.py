@@ -1,8 +1,8 @@
 from django.db import models
-from django.contrib.auth.models import User
-from datetime import datetime
 import random
 from ckeditor.fields import RichTextField
+
+
 
 
 def random_numbers():

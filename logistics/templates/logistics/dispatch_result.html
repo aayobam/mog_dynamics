@@ -1,0 +1,128 @@
+{% extends 'base.html' %}
+<title>{% block head_title %} Tracking Result{% endblock head_title %}</title>
+
+
+
+
+{% block content %}
+    <main class="container background-gold mb-5 text-center capitalizing">
+        {% if logistics %}
+            {% for logistic_details in logistics %}
+           
+            <div class="row row-height row-padding text-center">
+                <h1>Logistics Details</h1>
+                <div>
+                    <div class="mt-3">
+                        <h3>Sender Name</h3>
+                    </div>
+                    <div class="">
+                        <p>{{logistic_details.sender_name}}</p>
+                    </div>
+                </div>
+
+                <div>
+                    <div class="mt-3">
+                        <h3>Sender Address</h3>
+                    </div>
+                    <div class="">
+                        <p>{{logistic_details.sender_address}}</p>
+                    </div>
+                </div>
+
+                <div>
+                    <div class="mt-3">
+                        <h3>Sender Phone No</h3>
+                    </div>
+                    <div class="">
+                        <p>{{logistic_details.sender_phone_no}}</p>
+                    </div>
+                </div>
+
+                <div>
+                    <div class="mt-3">
+                        <h3>Receiver Name</h3>
+                    </div>
+                    <div class="">
+                    <p>{{logistic_details.receiver_name}}</p>
+                    </div>
+                </div>
+
+                <div>
+                    <div class="mt-3">
+                        <h3>Receiver Address</h3>
+                    </div>
+                    <div class="">
+                        <p>{{logistic_details.receiver_address}}</p>
+                    </div>
+                </div>
+                
+                <div>
+                    <div class="mt-3">
+                        <h3>Receiver Phone No</h3>
+                    </div>
+                    <div class="">
+                        <p>{{logistic_details.receiver_phone_no}}</p>
+                    </div>
+                </div>
+
+                <div>
+                    <div class="mt-3">
+                        <h3>Tracking No</h3>
+                    </div>
+                    <div class="">
+                        <p>{{logistic_details.tracking_no}}</p>
+                    </div>
+                </div>
+
+                <div>
+                    <div class="mt-3">
+                        <h3>Items Description</h3>
+                    </div>
+                    <div class="">
+                        <p>{{logistic_details.item_description|safe}}</p>
+                    </div>
+                </div>
+
+                <div>
+                    <div class="mt-3">
+                        <h3>Received Date</h3>
+                    </div>
+                    <div class="">
+                        <p>{{logistic_details.received_date|date:"F d, Y"}}</p>
+                    </div>
+                </div>
+
+                <div>
+                    <div class="mt-3">
+                        <h3>Delivery Date</h3>
+                    </div>
+                    <div class="">
+                        <p>{{logistic_details.delivery_date|date:"F d, Y"}}</p>
+                    </div>
+                </div>
+
+                <div>
+                    <div class="mt-3">
+                        <h3>Status</h3>
+                    </div>
+                    <div class="">
+                        <p>{{logistic_details.status}}</p>
+                    </div>
+                </div>
+                <div>
+                    <a href="{% url 'dispatch_update' pk=logistic_details.pk %}" class="btn btn-danger w-50 mb-2">Update Delivery</a>
+                </div>
+                <div>
+                    <a href="{% url 'dispatch_search' %}" class="btn w-50 background-black text-color-white">Track Another Detail</a>
+                </div>
+            </div>
+
+            {% endfor %}
+        {% else %}
+        <div class="background-gold">
+            <h1>record not found</h1>
+            <a href="{% url 'dispatch_search' %}" class="btn background-black text-color-gold w-50">Track Another Item</a>
+           </div>
+        {% endif %}
+    </main>
+{% endblock content%}

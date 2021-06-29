@@ -2,6 +2,10 @@ from django.contrib import admin
 from .models import Logistic
 from django.utils import timezone
 from django.contrib.auth.models import Group
+from django.contrib.admin.models import LogEntry
+
+
+
 
 
 @admin.register(Logistic)
@@ -12,7 +16,7 @@ class AdminLogistics(admin.ModelAdmin):
         "receiver_phone_no", "tracking_no", "item_description", "received_date", "delivery_date", "status"
     )
 
-    readonly_fields = ("tracking_no", "status")
+    readonly_fields = ("tracking_no", )
     list_filter = ("tracking_no",)
     search_fields = ("tracking_no", "sender_phone_no", "receiver_phone_no")
     actions = ["received", "transit", "delivered", "delivery_date",

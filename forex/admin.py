@@ -16,7 +16,7 @@ from .models import (
 
 def send_email_to_investment(self):
     return mark_safe('<a href="{}" style="background:red;" class="button">SEND MAIL</a>'.format(reverse('send-email', args=[self.pk])))
-send_email_to_investment.short_description = 'send mail'
+send_email_to_investment.short_description = 'send investment mail'
 
 
 # This displays the PDf link to print record of the row using the row id or pk
@@ -28,7 +28,7 @@ investment_pdf_salary.short_description = 'Investment Invoice'
 @admin.register(SalaryPackage)
 class AdminSalary3month(admin.ModelAdmin):
     list_display = ("investor_name", "phone_no", "email","capital", "percentage", "duration", "investment_date", "monthly_payment",
-                    "first_payment", "payment_date_1", "second_payment", "payment_date_2", "third_payment", "payment_date_3", "reference_no", investment_pdf_salary, send_email_to_investment)
+                    "first_payment", "payment_date_1", "second_payment", "payment_date_2", "third_payment", "payment_date_3", "reference_no", investment_pdf_salary)
 
     readonly_fields = ("percentage", "monthly_payment", "first_payment", "payment_date_1", "second_payment",
                        "payment_date_2", "third_payment", "payment_date_3", "reference_no", "duration")

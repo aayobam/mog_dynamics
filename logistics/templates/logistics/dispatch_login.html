@@ -1,0 +1,22 @@
+{% extends 'base.html' %}
+{% load crispy_forms_tags %}
+<title>{% block head_title %}Dispatch Admin{% endblock head_title %}</title>
+
+
+{% block content %}
+<main class="container background-gold text-color-black">
+    <div class="row row-height row-padding justify-content-center">
+        <div class="col-md-4 body-text mt-5 search-result">
+        <h2>Track Items</h2>
+        <form action="{% url 'dispatch_login' %}" method="POST" enctype="multipart/form-data">
+            {{ login_form|crispy }}
+            {% csrf_token %}
+            <div> 
+            <input type="submit" value="Log in"class="btn background-black text-color-gold mt-3 w-100 pd-1"/>
+            </div>
+        </form>
+        </div>
+    </div>
+</main>
+
+{% endblock content %}
