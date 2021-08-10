@@ -14,6 +14,7 @@ db.sqlite3-journal
 # Environments
 .env
 .venv
+.staticfiles
 env/
 venv/
 ENV/
