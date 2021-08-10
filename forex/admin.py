@@ -64,8 +64,6 @@ class AdminSalary3month(admin.ModelAdmin):
 # This displays the PDf link to print record of the row using the row id or pk
 def investment_pdf_3months(self):
     return mark_safe('<a href="{}" style="background:red;" class="button">PRINT RECORD</a>'.format(reverse('3_months', args=[self.pk])))
-
-
 investment_pdf_3months.short_description = 'Investment Invoice'
 
 
@@ -92,8 +90,6 @@ class AdminFixedPackage3Month(admin.ModelAdmin):
 # This displays the PDf link to print record of the row using the row id or pk
 def investment_pdf_6months(self):
     return mark_safe('<a href="{}" style="background:red;" class="button">PRINT RECORD</a>'.format(reverse('6_months', args=[self.pk])))
-
-
 investment_pdf_6months.short_description = 'Investment Invoice'
 
 
@@ -120,8 +116,6 @@ class AdminFixedPackage6Month(admin.ModelAdmin):
 # This displays the PDf link to print record of the row using the row id or pk
 def investment_pdf_9months(self):
     return mark_safe('<a href="{}" style="background:red;" class="button">PRINT RECORD</a>'.format(reverse('9_months', args=[self.pk])))
-
-
 investment_pdf_9months.short_description = 'Investment Invoice'
 
 
@@ -148,8 +142,6 @@ class AdminFixedPackage9Month(admin.ModelAdmin):
 # This displays the PDf link to print record of the row using the row id or pk
 def investment_pdf_12months(self):
     return mark_safe('<a href="{}" style="color:red">PRINT RECORD</a>'.format(reverse('12_months', args=[self.pk])))
-
-
 investment_pdf_12months.short_description = 'Investment Invoice'
 
 

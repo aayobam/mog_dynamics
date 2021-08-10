@@ -22,7 +22,7 @@ SECRET_KEY = env('SECRET_KEY')
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-#ALLOWED_HOSTS = ['baytechblog.herokuapp.com', 'localhost', '127.0.0.1']
+#ALLOWED_HOSTS = ['mogdynamics.herokuapp.com', 'localhost', '127.0.0.1']
 
 ALLOWED_HOSTS = []
 
@@ -41,8 +41,8 @@ INSTALLED_APPS = [
     'logistics',
     'ckeditor',
     'crispy_forms',
-    'ckeditor_uploader',
     'phone_field',
+    'simple_history',
     'computed_property',
 ]
 
@@ -54,7 +54,6 @@ MIDDLEWARE = [
     'django.contrib.auth.middleware.AuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
-    'simple_history.middleware.HistoryRequestMiddleware',
 ]
 
 ROOT_URLCONF = 'mog_dynamic.urls'
@@ -83,12 +82,12 @@ WSGI_APPLICATION = 'mog_dynamic.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.postgresql_psycopg2',
-        'NAME': 'Mogdb',
-        'USER': 'postgres',
-        'PASSWORD': 'Billy@01',
-        'HOST': '127.0.0.1',
-        'PORT': '5432',
+        'ENGINE': "django.db.backends.mysql",
+        'NAME': env("DB_NAME"),
+        'USER': env("DB_USER"),
+        'PASSWORD': env("DB_PASSWORD"),
+        'HOST': env("DB_HOST"),
+        'PORT': env("DB_PORT"),
     }
 }
 

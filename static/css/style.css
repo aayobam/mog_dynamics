@@ -216,8 +216,24 @@ p{
 }
 
 
-/*footer text */
-.mb-footer{
-  color:white;
+/* footer contact icon style*/
+.footer{
+  font-size: 100px;
+  margin: 0px 70px;
+}
+
+
+.log-out{
+  padding-left: -10px;
+}
+
+
+@media only screen and (max-width: 768px){
+  .log-out{
+    width: 100px;
+    margin-top:10px;
+    padding: 3px 0px 3px 0px;
+    text-align: center;
+  }
 }
 

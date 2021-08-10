@@ -13,9 +13,9 @@ from .views import (
 urlpatterns = [
     path('search-page/', SearchPageView.as_view(), name="logistics_search"),
     path('tracking-result/', SearchResultView.as_view(), name="logistics_result"),
-    path('admin/dispatch/login/', dispatch_login, name="dispatch_login"),
-    path('admin/dispatch/logout/', dispatch_logout, name="dispatch_logout"),
-    path('admin/dispatch/search/', DispatchRiderSearchView.as_view(), name="dispatch_search"),
-    path('admin/dispatch/result/', DispatchRiderListView.as_view(), name="dispatch_result"),
-    path('admin/dispatch/<int:pk>/update/', DispatchRiderUpdateView.as_view(), name="dispatch_update"),
+    path('dispatch/login/', dispatch_login, name="dispatch_login"),
+    path('dispatch/logout/', dispatch_logout, name="dispatch_logout"),
+    path('dispatch/search/', DispatchRiderSearchView.as_view(), name="dispatch_search"),
+    path('dispatch/result/', DispatchRiderListView.as_view(), name="dispatch_result"),
+    path('dispatch/<int:pk>/update/', DispatchRiderUpdateView.as_view(), name="dispatch_update"),
 ]

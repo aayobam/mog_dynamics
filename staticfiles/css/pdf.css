@@ -1,0 +1,64 @@
+@page{
+    size:A4;
+    margin: 10mm;
+}
+
+.pdf-img-left{
+    width: 170px;
+    height: 150px;
+    margin-top: -120px;
+    
+}
+
+.pdf-img-right{
+    height: 110px;
+    width:260px;
+    margin-left: 28rem;
+    margin-top: 30px;
+}
+
+.about_text{
+    text-align: left;
+}
+
+.text-center{
+    text-align: center;
+}
+
+.float-right{
+    float:right;
+    margin-bottom: 30px;
+    margin-right: 30px;
+}
+
+.float-left{
+    float:left;
+    margin-left: 30px;
+}
+
+h3{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 21.7px;
+    text-transform: capitalize;
+    line-height:24.5px;
+    font-weight: lighter;
+}
+
+.salary-capitalizing{
+    text-transform: capitalize;
+    line-height: 30px;
+}
+
+.fixed-capitalizing{
+    text-transform: capitalize;
+    line-height: 14px;
+    margin-top: 26px;
+}
+
+.padding-right{
+    padding-right: 80px;
+}
+
+.padding-left{
+    padding-left: 80px;
+}

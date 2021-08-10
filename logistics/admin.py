@@ -1,10 +1,7 @@
 from django.contrib import admin
+from django.contrib.admin.models import LogEntry
 from .models import Logistic
 from django.utils import timezone
-from django.contrib.auth.models import Group
-from django.contrib.admin.models import LogEntry
-
-
 
 
 
@@ -13,7 +10,8 @@ class AdminLogistics(admin.ModelAdmin):
 
     list_display = (
         "sender_name", "sender_address", "sender_phone_no", "receiver_name", "receiver_address",
-        "receiver_phone_no", "tracking_no", "item_description", "received_date", "delivery_date", "status"
+        "receiver_phone_no", "tracking_no", "item_description", "received_date", "delivery_date", 
+        "status", "updated_by"
     )
 
     readonly_fields = ("tracking_no", )
@@ -21,7 +19,7 @@ class AdminLogistics(admin.ModelAdmin):
     search_fields = ("tracking_no", "sender_phone_no", "receiver_phone_no")
     actions = ["received", "transit", "delivered", "delivery_date",
                "wrong_delivery_address", "unable_to_locate_address", "unable_to_contact_receiver"]
-    actions_selection_counter = True
+
 
 
     # return true for approved fields
@@ -49,3 +47,4 @@ class AdminLogistics(admin.ModelAdmin):
     def unable_to_contact_receiver(self, request, queryset):
         message = "Unable to Contact Receiver"
         return queryset.update(status=message)
+
