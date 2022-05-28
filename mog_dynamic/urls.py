@@ -13,9 +13,9 @@ urlpatterns = [
     path('', home_view, name="home"),
     path('contact/', contact_view, name="contact-us"),
     path('about/', about_view, name="feature"),
-    path('shipping/', include("shipping.urls")),
-    path('logistics/', include("logistics.urls")),
-    path('forex/', include("forex.urls")),
+    path('shipping/', include("apps.shipping.urls")),
+    path('logistics/', include("apps.logistics.urls")),
+    path('forex/', include("apps.forex.urls")),
     path('ckeditor/', include('ckeditor_uploader.urls')),
 ]
 

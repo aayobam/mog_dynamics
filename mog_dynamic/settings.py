@@ -1,7 +1,6 @@
 from pathlib import Path
 import os
 import environ
-import django_heroku
 import whitenoise
 
 
@@ -36,14 +35,15 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'forex',
-    'shipping',
-    'logistics',
+
+    # local apps
+    'apps.forex',
+    'apps.shipping',
+    'apps.logistics',
+
+    # third part apps
     'ckeditor',
     'crispy_forms',
-    'phone_field',
-    'simple_history',
-    'computed_property',
 ]
 
 MIDDLEWARE = [
@@ -80,16 +80,25 @@ WSGI_APPLICATION = 'mog_dynamic.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/3.2/ref/settings/#databases
 
+
 DATABASES = {
     'default': {
-        'ENGINE': "django.db.backends.mysql",
-        'NAME': env("DB_NAME"),
-        'USER': env("DB_USER"),
-        'PASSWORD': env("DB_PASSWORD"),
-        'HOST': env("DB_HOST"),
-        'PORT': env("DB_PORT"),
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': 'db.sqlite3',
     }
 }
+
+
+# DATABASES = {
+#     'default': {
+#         'ENGINE': "django.db.backends.mysql",
+#         'NAME': env("DB_NAME"),
+#         'USER': env("DB_USER"),
+#         'PASSWORD': env("DB_PASSWORD"),
+#         'HOST': env("DB_HOST"),
+#         'PORT': env("DB_PORT"),
+#     }
+# }
 
 
 # Password validation
@@ -131,9 +140,7 @@ USE_TZ = True
 STATIC_URL = '/static/'
 MEDIA_URL = '/img/'
 
-STATICFILES_DIRS = (
-os.path.join(BASE_DIR, 'static'),
-)
+STATICFILES_DIRS = (os.path.join(BASE_DIR, 'static'),)
 MEDIA_ROOT = os.path.join(BASE_DIR, 'static/img')
 
 
@@ -189,6 +196,6 @@ EMAIL_PORT = 587
 EMAIL_HOST_USER = env("EMAIL_HOST_USER")
 EMAIL_HOST_PASSWORD = env("EMAIL_HOST_PASSWORD")
 DEFAULT_FROM_EMAIL = env("DEFAULT_FROM_EMAIL")
+CONTACT_EMAIL= env("CONTACT_EMAIL")
 
-
-django_heroku.settings(locals())
+#django_heroku.settings(locals())
