@@ -8,11 +8,11 @@
         <div class="row justify-content-center">
           <div class="col-md-4 body-text mt-5 search-result">
             <h2>Update Delivery Status</h2>
-            <form method="POST" readonly>
-                {{ form|crispy }}
+            <form method="POST">
+                {{ form|crispy}}
               {% csrf_token %}
               <input type="submit" value="Update Status" class="btn background-black text-color-gold mt-3 w-100 pd-1 mb-5"/>
-            </form>
+              <a href="{% url "dispatch_search" %}" class="btn background-black text-color-gold mt-3 w-100 pd-1 mb-5">Cancel</a>
         </div>
         </div>
     </main>

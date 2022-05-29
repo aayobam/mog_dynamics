@@ -11,11 +11,10 @@ class AdminLogistics(admin.ModelAdmin):
     list_display = (
         "sender_name", "sender_address", "sender_phone_no", "receiver_name", "receiver_address",
         "receiver_phone_no", "tracking_no", "item_description", "received_date", "delivery_date", 
-        "status", "updated_by"
+        "status", 'updated_at',"updated_by"
     )
 
     readonly_fields = ("tracking_no", )
-    list_filter = ("tracking_no",)
     search_fields = ("tracking_no", "sender_phone_no", "receiver_phone_no")
     actions = ["received", "transit", "delivered", "delivery_date",
                "wrong_delivery_address", "unable_to_locate_address", "unable_to_contact_receiver"]

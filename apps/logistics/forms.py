@@ -1,3 +1,4 @@
+from unittest.util import safe_repr
 from django import forms
 from .models import Logistic
 
@@ -16,4 +17,5 @@ class LogisticForm(forms.ModelForm):
         for field in self.fields:
             self.fields[field].disabled=True
             self.fields["status"].disabled=False
+            self.fields["item_description"].safe = True
         

@@ -21,9 +21,10 @@ class Logistic(models.Model):
     updated_by = models.ForeignKey(User, on_delete=models.CASCADE)
     created_at = models.DateTimeField(auto_now_add=True)
     updated_at = models.DateTimeField(auto_now_add=True)
-    
 
     class Meta:
+        verbose_name = "Logistic"
+        verbose_name_plural = "Logistics"
         ordering = ("-received_date",)
 
     def __str__(self):
