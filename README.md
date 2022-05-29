@@ -1,3 +1,3 @@
 # mog_dynamics
-forex, shipping, logistics
+shipping, logistics
 coming soon
