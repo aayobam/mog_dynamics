@@ -1,5 +1,5 @@
 from django.db import models
-from ckeditor.fields import RichTextField
+from ckeditor_uploader.fields import RichTextUploadingField
 from django.contrib.auth.models import User
 from apps.common.choices import status_choices
 from apps.common.generator import random_numbers
@@ -14,7 +14,7 @@ class Logistic(models.Model):
     receiver_address = models.CharField(max_length=500)
     receiver_phone_no = models.CharField(max_length=11, blank=True, help_text='Contact phone number')
     tracking_no = models.CharField(default=random_numbers, max_length=10)
-    item_description = RichTextField(blank=True, null=True)
+    item_description = RichTextUploadingField(blank=True, null=True)
     received_date = models.DateTimeField(auto_now_add=True, null=True, blank=True)
     delivery_date = models.DateTimeField(auto_now_add=True, null=True, blank=True)
     status = models.CharField(choices=status_choices, max_length=100, null=True, help_text="Update Delivery Status")

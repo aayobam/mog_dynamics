@@ -37,6 +37,8 @@
                   <form action="{% url 'dispatch_logout' %}" method="POST">
                     
                     {% csrf_token %}
+      
+                    <a href="{% url "logistics_search" %}" class="btn btn-outline-info" style="padding:-10px !important;">Track Items</a>
                     <input type="submit" value="log out" class="btn btn-outline-info" style="padding:-10px !important;">
                   </form>
                 </li>
@@ -132,6 +134,10 @@
       })();
     </script>
     <!--End of Tawk.to Script-->
+
+    <!--ckeditor config from backend-->
+    <script type="text/javascript" src="{% static "ckeditor/ckeditor-init.js" %}"></script>
+    <script type="text/javascript" src="{% static "ckeditor/ckeditor/ckeditor.js" %}"></script>
   </body>
 
 </html>
