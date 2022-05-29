@@ -523,3 +523,14 @@ Watching for file changes with StatReloader
 "GET /logistics/tracking-result/?q=2066154301 HTTP/1.1" 200 7603
 "GET /logistics/search-page/ HTTP/1.1" 200 4753
 "GET /logistics/tracking-result/?q=2066154301 HTTP/1.1" 200 7603
+"GET /logistics/tracking-result/?q=2066154301 HTTP/1.1" 200 6989
+"GET /static/css/style.css HTTP/1.1" 304 0
+"GET /static/js/style.js HTTP/1.1" 304 0
+"GET /static/img/Logo%20gold.png HTTP/1.1" 304 0
+"GET /static/ckeditor/ckeditor-init.js HTTP/1.1" 304 0
+"GET /static/ckeditor/ckeditor/ckeditor.js HTTP/1.1" 304 0
+/home/baytech/Desktop/mog_dynamics/mog_dynamic/settings.py changed, reloading.
+Watching for file changes with StatReloader
+/home/baytech/Desktop/mog_dynamics/mog_dynamic/settings.py changed, reloading.
+Watching for file changes with StatReloader
+/home/baytech/Desktop/mog_dynamics/mog_dynamic/settings.py changed, reloading.

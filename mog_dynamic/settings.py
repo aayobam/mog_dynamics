@@ -24,6 +24,9 @@ DEBUG = False
 #ALLOWED_HOSTS = ['mogdynamics.herokuapp.com', 'localhost', '127.0.0.1']
 
 ALLOWED_HOSTS = [
+    'mogdynamics.com',
+    'www.mogdynamics.com',
+    '143.198.172.252',
     'localhost',
     '127.0.0.1'
 ]
