@@ -5,8 +5,8 @@ from .models import ShippingDetail
 
 @admin.register(ShippingDetail)
 class AdminShipping(admin.ModelAdmin):
-    list_display = ('id', 'sender_name', 'items_description', 'shipping_fee', 'tracking_no', 'received_date', 'picked_on', 'status')
-    readonly_fields = ('tracking_no', 'status')
+    list_display = ('sender_name', 'items_description', 'shipping_fee', 'tracking_no', 'received_date', 'picked_on', 'status')
+    readonly_fields = ('tracking_no',)
     list_filter = ('sender_name', 'tracking_no')
     search_fields = ('id', 'sender_name', 'tracking_no')
     actions = ['pending', 'arrived', 'picked_up', 'us_custom', 'uk_custom', 'ca_custom', 'enroute_nigeria']

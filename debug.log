@@ -534,3 +534,855 @@ Watching for file changes with StatReloader
 /home/baytech/Desktop/mog_dynamics/mog_dynamic/settings.py changed, reloading.
 Watching for file changes with StatReloader
 /home/baytech/Desktop/mog_dynamics/mog_dynamic/settings.py changed, reloading.
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 8044
+"GET /static/img/vector-illustration.svg HTTP/1.1" 200 23439
+"GET /static/css/style.css HTTP/1.1" 200 3529
+"GET /static/img/mark.svg HTTP/1.1" 200 1052
+"GET /static/ckeditor/ckeditor-init.js HTTP/1.1" 200 1525
+"GET /static/js/style.js HTTP/1.1" 200 570
+"GET /static/img/value.svg HTTP/1.1" 200 2771
+"GET /static/img/clock.svg HTTP/1.1" 200 3535
+"GET /static/img/Logo%20gold.png HTTP/1.1" 200 179176
+"GET /static/ckeditor/ckeditor/ckeditor.js HTTP/1.1" 200 753458
+"GET /admin HTTP/1.1" 301 0
+"GET /admin/ HTTP/1.1" 302 0
+"GET /admin/login/?next=/admin/ HTTP/1.1" 200 2810
+"GET /static/vendor/fontawesome-free/css/all.min.css HTTP/1.1" 200 59344
+"GET /static/jazzmin/css/main.css HTTP/1.1" 200 16672
+"GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 200 288580
+"GET /static/vendor/adminlte/css/adminlte.min.css HTTP/1.1" 200 1382975
+"GET /static/vendor/bootstrap/js/bootstrap.min.js HTTP/1.1" 200 62440
+"GET /static/vendor/adminlte/js/adminlte.min.js HTTP/1.1" 200 44244
+Not Found: /static/static/img/Logo gold.png
+"GET /static/static/img/Logo%20gold.png HTTP/1.1" 404 179
+"GET /static/vendor/fontawesome-free/webfonts/fa-solid-900.woff2 HTTP/1.1" 200 78196
+Not Found: /static/static/img/Logo gold.png
+"GET /static/static/img/Logo%20gold.png HTTP/1.1" 404 179
+/home/baytech/Desktop/mog_dynamics/mog_dynamic/settings.py changed, reloading.
+Watching for file changes with StatReloader
+/home/baytech/Desktop/mog_dynamics/mog_dynamic/settings.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /admin/login/?next=/admin/ HTTP/1.1" 200 2810
+Not Found: /static/static/img/Logo gold.png
+"GET /static/static/img/Logo%20gold.png HTTP/1.1" 404 179
+"GET /admin/login/?next=/admin/ HTTP/1.1" 200 2810
+Not Found: /static/static/img/Logo gold.png
+"GET /static/static/img/Logo%20gold.png HTTP/1.1" 404 179
+"GET /admin/login/?next=/admin/ HTTP/1.1" 200 2810
+"GET /static/vendor/fontawesome-free/css/all.min.css HTTP/1.1" 304 0
+"GET /static/vendor/adminlte/css/adminlte.min.css HTTP/1.1" 304 0
+"GET /static/jazzmin/css/main.css HTTP/1.1" 304 0
+Not Found: /static/static/img/Logo gold.png
+"GET /static/vendor/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+"GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 304 0
+"GET /static/static/img/Logo%20gold.png HTTP/1.1" 404 179
+"GET /static/vendor/adminlte/js/adminlte.min.js HTTP/1.1" 304 0
+"POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+"GET /admin/ HTTP/1.1" 200 34873
+Not Found: /static/static/img/Logo gold.png
+"GET /static/static/img/Logo%20gold.png HTTP/1.1" 404 179
+"GET /static/jazzmin/js/main.js HTTP/1.1" 200 2393
+"GET /static/vendor/fontawesome-free/webfonts/fa-regular-400.woff2 HTTP/1.1" 200 13276
+"GET /admin/ HTTP/1.1" 200 34873
+Not Found: /static/static/img/Logo gold.png
+"GET /static/static/img/Logo%20gold.png HTTP/1.1" 404 179
+/home/baytech/Desktop/mog_dynamics/mog_dynamic/settings.py changed, reloading.
+Watching for file changes with StatReloader
+/home/baytech/Desktop/mog_dynamics/mog_dynamic/settings.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /admin/ HTTP/1.1" 200 34852
+"GET /static/vendor/adminlte/css/adminlte.min.css HTTP/1.1" 304 0
+"GET /static/jazzmin/css/main.css HTTP/1.1" 304 0
+"GET /static/vendor/fontawesome-free/css/all.min.css HTTP/1.1" 304 0
+"GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 304 0
+"GET /static/vendor/adminlte/js/adminlte.min.js HTTP/1.1" 304 0
+"GET /static/vendor/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+"GET /static/img/Logo%20gold.png HTTP/1.1" 304 0
+"GET /static/jazzmin/js/main.js HTTP/1.1" 304 0
+"GET /admin/password_change/ HTTP/1.1" 200 17032
+"GET /admin/ HTTP/1.1" 200 34852
+"GET /admin/logout/ HTTP/1.1" 200 1488
+"GET /admin/ HTTP/1.1" 302 0
+"GET /admin/login/?next=/admin/ HTTP/1.1" 200 2789
+"GET /admin/login/?next=/admin/ HTTP/1.1" 200 2789
+"GET /static/jazzmin/css/main.css HTTP/1.1" 304 0
+"GET /static/vendor/adminlte/css/adminlte.min.css HTTP/1.1" 304 0
+"GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 304 0
+"GET /static/vendor/fontawesome-free/css/all.min.css HTTP/1.1" 304 0
+"GET /static/vendor/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+"GET /static/vendor/adminlte/js/adminlte.min.js HTTP/1.1" 304 0
+"GET /static/img/Logo%20gold.png HTTP/1.1" 304 0
+"GET / HTTP/1.1" 200 8044
+"GET /static/css/style.css HTTP/1.1" 304 0
+"GET /static/js/style.js HTTP/1.1" 304 0
+"GET /static/ckeditor/ckeditor/ckeditor.js HTTP/1.1" 304 0
+"GET /static/ckeditor/ckeditor-init.js HTTP/1.1" 304 0
+"GET /static/img/vector-illustration.svg HTTP/1.1" 304 0
+"GET /static/img/value.svg HTTP/1.1" 304 0
+"GET /static/img/mark.svg HTTP/1.1" 304 0
+"GET /static/img/clock.svg HTTP/1.1" 304 0
+/home/baytech/Desktop/mog_dynamics/mog_dynamic/settings.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /admin/login/?next=/admin/ HTTP/1.1" 200 2789
+"GET /static/vendor/fontawesome-free/css/all.min.css HTTP/1.1" 304 0
+"GET /static/jazzmin/css/main.css HTTP/1.1" 304 0
+"GET /static/vendor/adminlte/css/adminlte.min.css HTTP/1.1" 304 0
+"GET /static/img/Logo%20gold.png HTTP/1.1" 304 0
+"GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 304 0
+"GET /static/vendor/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+"GET /static/vendor/adminlte/js/adminlte.min.js HTTP/1.1" 304 0
+"GET /static/vendor/fontawesome-free/webfonts/fa-solid-900.woff2 HTTP/1.1" 304 0
+"GET /admin/login/?next=/admin/ HTTP/1.1" 200 2789
+/home/baytech/Desktop/mog_dynamics/mog_dynamic/settings.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /admin/login/?next=/admin/ HTTP/1.1" 200 2789
+/home/baytech/Desktop/mog_dynamics/mog_dynamic/settings.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /admin/login/?next=/admin/ HTTP/1.1" 200 2789
+"POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+"GET /admin/ HTTP/1.1" 200 34839
+"GET /static/vendor/fontawesome-free/css/all.min.css HTTP/1.1" 304 0
+"GET /static/vendor/adminlte/css/adminlte.min.css HTTP/1.1" 304 0
+"GET /static/jazzmin/css/main.css HTTP/1.1" 304 0
+"GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 304 0
+"GET /static/vendor/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+"GET /static/vendor/adminlte/js/adminlte.min.js HTTP/1.1" 304 0
+"GET /static/jazzmin/js/main.js HTTP/1.1" 304 0
+"GET /static/img/Logo%20gold.png HTTP/1.1" 304 0
+"GET /static/vendor/fontawesome-free/webfonts/fa-solid-900.woff2 HTTP/1.1" 304 0
+"GET /static/vendor/fontawesome-free/webfonts/fa-regular-400.woff2 HTTP/1.1" 304 0
+"GET /admin/ HTTP/1.1" 200 34839
+"GET /admin/logout/ HTTP/1.1" 200 1488
+"GET /admin/ HTTP/1.1" 302 0
+"GET /admin/login/?next=/admin/ HTTP/1.1" 200 2789
+"GET /admin/login/?next=/admin/ HTTP/1.1" 200 2789
+"GET /static/vendor/fontawesome-free/css/all.min.css HTTP/1.1" 200 59344
+"GET /static/jazzmin/css/main.css HTTP/1.1" 200 16672
+"GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 200 288580
+"GET /static/vendor/adminlte/js/adminlte.min.js HTTP/1.1" 200 44244
+"GET /static/vendor/bootstrap/js/bootstrap.min.js HTTP/1.1" 200 62440
+"GET /static/vendor/adminlte/css/adminlte.min.css HTTP/1.1" 200 1382975
+"GET /static/img/Logo%20gold.png HTTP/1.1" 200 179176
+"GET /static/vendor/fontawesome-free/webfonts/fa-solid-900.woff2 HTTP/1.1" 200 78196
+/home/baytech/Desktop/mog_dynamics/mog_dynamic/settings.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /admin/login/?next=/admin/ HTTP/1.1" 200 2789
+"GET /static/vendor/fontawesome-free/css/all.min.css HTTP/1.1" 304 0
+"GET /static/vendor/adminlte/css/adminlte.min.css HTTP/1.1" 304 0
+"GET /static/jazzmin/css/main.css HTTP/1.1" 304 0
+"GET /static/vendor/adminlte/js/adminlte.min.js HTTP/1.1" 304 0
+"GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 304 0
+"GET /static/vendor/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+"GET /static/img/Logo%20gold.png HTTP/1.1" 304 0
+"GET /static/vendor/fontawesome-free/webfonts/fa-solid-900.woff2 HTTP/1.1" 304 0
+/home/baytech/Desktop/mog_dynamics/mog_dynamic/settings.py changed, reloading.
+Watching for file changes with StatReloader
+/home/baytech/Desktop/mog_dynamics/mog_dynamic/settings.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /admin/login/?next=/admin/ HTTP/1.1" 200 2789
+"GET /static/vendor/adminlte/css/adminlte.min.css HTTP/1.1" 304 0
+"GET /static/jazzmin/css/main.css HTTP/1.1" 304 0
+"GET /static/vendor/fontawesome-free/css/all.min.css HTTP/1.1" 304 0
+"GET /static/img/Logo%20gold.png HTTP/1.1" 304 0
+"GET /static/vendor/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+"GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 304 0
+"GET /static/vendor/adminlte/js/adminlte.min.js HTTP/1.1" 304 0
+"GET /static/vendor/fontawesome-free/webfonts/fa-solid-900.woff2 HTTP/1.1" 304 0
+"GET /admin/login/?next=/admin/ HTTP/1.1" 200 2789
+"GET /admin/login/?next=/admin/ HTTP/1.1" 200 2789
+"POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+"GET /admin/ HTTP/1.1" 200 34850
+"GET /static/jazzmin/js/main.js HTTP/1.1" 200 2393
+"GET /static/vendor/fontawesome-free/webfonts/fa-regular-400.woff2 HTTP/1.1" 200 13276
+"GET /admin/auth/user/ HTTP/1.1" 200 23735
+"GET /static/vendor/select2/css/select2.min.css HTTP/1.1" 200 16264
+"GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 200 5984
+"GET /static/admin/js/jquery.init.js HTTP/1.1" 200 347
+"GET /static/admin/js/actions.js HTTP/1.1" 200 7872
+"GET /static/admin/js/core.js HTTP/1.1" 200 5698
+"GET /static/admin/js/vendor/jquery/jquery.min.js HTTP/1.1" 200 89501
+"GET /static/admin/js/urlify.js HTTP/1.1" 200 7902
+"GET /static/admin/js/prepopulate.js HTTP/1.1" 200 1531
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+"GET /static/admin/js/vendor/xregexp/xregexp.min.js HTTP/1.1" 200 125266
+"GET /static/vendor/select2/js/select2.min.js HTTP/1.1" 200 73170
+"GET /static/jazzmin/js/change_list.js HTTP/1.1" 200 2222
+"GET /static/admin/img/icon-yes.svg HTTP/1.1" 200 436
+"GET /static/admin/img/icon-no.svg HTTP/1.1" 200 560
+"GET /admin/auth/user/add/ HTTP/1.1" 200 19746
+"GET /static/admin/js/change_form.js HTTP/1.1" 200 606
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+"GET /static/admin/js/prepopulate_init.js HTTP/1.1" 200 492
+"GET /static/jazzmin/js/change_form.js HTTP/1.1" 200 6002
+"POST /admin/auth/user/add/ HTTP/1.1" 302 0
+"GET /admin/auth/user/3/change/ HTTP/1.1" 200 36759
+"GET /static/vendor/fontawesome-free/css/all.min.css HTTP/1.1" 304 0
+"GET /static/vendor/adminlte/css/adminlte.min.css HTTP/1.1" 304 0
+"GET /static/admin/js/admin/DateTimeShortcuts.js HTTP/1.1" 200 19634
+"GET /static/admin/js/SelectBox.js HTTP/1.1" 200 4360
+"GET /static/admin/js/calendar.js HTTP/1.1" 200 8466
+"GET /static/admin/js/SelectFilter2.js HTTP/1.1" 200 12350
+"GET /static/jazzmin/css/main.css HTTP/1.1" 304 0
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+"GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 304 0
+"GET /static/vendor/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+"GET /static/vendor/adminlte/js/adminlte.min.js HTTP/1.1" 304 0
+"GET /static/admin/img/icon-addlink.svg HTTP/1.1" 200 331
+"GET /static/img/Logo%20gold.png HTTP/1.1" 304 0
+"GET /static/jazzmin/img/selector-icons.svg HTTP/1.1" 200 3291
+"POST /admin/auth/user/3/change/ HTTP/1.1" 302 0
+"GET /admin/auth/user/ HTTP/1.1" 200 24810
+"GET /static/admin/js/vendor/jquery/jquery.min.js HTTP/1.1" 304 0
+"GET /static/vendor/select2/css/select2.min.css HTTP/1.1" 304 0
+"GET /static/admin/js/jquery.init.js HTTP/1.1" 304 0
+"GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 304 0
+"GET /static/admin/js/core.js HTTP/1.1" 304 0
+"GET /static/admin/js/actions.js HTTP/1.1" 304 0
+"GET /static/admin/js/urlify.js HTTP/1.1" 304 0
+"GET /static/admin/js/prepopulate.js HTTP/1.1" 304 0
+"GET /static/admin/js/vendor/xregexp/xregexp.min.js HTTP/1.1" 304 0
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+"GET /static/jazzmin/js/main.js HTTP/1.1" 304 0
+"GET /static/vendor/select2/js/select2.min.js HTTP/1.1" 304 0
+"GET /static/admin/img/icon-yes.svg HTTP/1.1" 304 0
+"GET /static/jazzmin/js/change_list.js HTTP/1.1" 304 0
+"GET /static/admin/img/icon-no.svg HTTP/1.1" 304 0
+"GET /admin/shipping/shippingdetail/ HTTP/1.1" 200 23697
+"GET /static/vendor/fontawesome-free/css/all.min.css HTTP/1.1" 304 0
+"GET /static/jazzmin/css/main.css HTTP/1.1" 304 0
+"GET /static/vendor/adminlte/css/adminlte.min.css HTTP/1.1" 304 0
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+"GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 304 0
+"GET /static/vendor/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+"GET /static/vendor/adminlte/js/adminlte.min.js HTTP/1.1" 304 0
+"GET /static/img/Logo%20gold.png HTTP/1.1" 304 0
+"GET /admin/shipping/shippingdetail/add/ HTTP/1.1" 200 24385
+"GET /static/admin/js/admin/DateTimeShortcuts.js HTTP/1.1" 304 0
+"GET /static/admin/js/calendar.js HTTP/1.1" 304 0
+"GET /static/ckeditor/ckeditor-init.js HTTP/1.1" 200 1525
+"GET /static/ckeditor/ckeditor/ckeditor.js HTTP/1.1" 200 753458
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+"GET /static/admin/js/change_form.js HTTP/1.1" 304 0
+"GET /static/admin/js/prepopulate_init.js HTTP/1.1" 304 0
+"GET /static/jazzmin/js/change_form.js HTTP/1.1" 304 0
+"GET /static/ckeditor/ckeditor/config.js?t=M2G9 HTTP/1.1" 200 336
+"GET /static/ckeditor/ckeditor/lang/en.js?t=M2G9 HTTP/1.1" 200 17445
+"GET /static/ckeditor/ckeditor/skins/moono-lisa/editor.css?t=M2G9 HTTP/1.1" 200 48309
+"GET /static/ckeditor/ckeditor/styles.js?t=M2G9 HTTP/1.1" 200 5577
+"GET /static/ckeditor/ckeditor/plugins/scayt/dialogs/dialog.css?t=M2G9 HTTP/1.1" 200 419
+"GET /static/ckeditor/ckeditor/plugins/tableselection/styles/tableselection.css?t=M2G9 HTTP/1.1" 200 1145
+"GET /static/ckeditor/ckeditor/plugins/scayt/skins/moono-lisa/scayt.css?t=M2G9 HTTP/1.1" 200 381
+"GET /static/ckeditor/ckeditor/plugins/dialog/styles/dialog.css?t=M2G9 HTTP/1.1" 200 249
+"GET /static/ckeditor/ckeditor/plugins/copyformatting/styles/copyformatting.css?t=M2G9 HTTP/1.1" 200 1511
+"GET /static/ckeditor/ckeditor/plugins/icons.png?t=M2G9 HTTP/1.1" 200 12237
+"GET /static/ckeditor/ckeditor/contents.css?t=M2G9 HTTP/1.1" 200 3092
+"GET /static/ckeditor/ckeditor/skins/moono-lisa/icons.png?t=5fe059002f HTTP/1.1" 200 12237
+"POST /admin/shipping/shippingdetail/add/ HTTP/1.1" 302 0
+"GET /admin/shipping/shippingdetail/ HTTP/1.1" 200 25382
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+/home/baytech/Desktop/mog_dynamics/mog_dynamic/settings.py changed, reloading.
+Watching for file changes with StatReloader
+/home/baytech/Desktop/mog_dynamics/mog_dynamic/settings.py changed, reloading.
+Watching for file changes with StatReloader
+/home/baytech/Desktop/mog_dynamics/mog_dynamic/settings.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /admin/shipping/shippingdetail/ HTTP/1.1" 200 24845
+"GET /static/vendor/fontawesome-free/css/all.min.css HTTP/1.1" 304 0
+Not Found: /static/css/style.js
+"GET /static/admin/js/vendor/jquery/jquery.min.js HTTP/1.1" 304 0
+"GET /static/css/style.js HTTP/1.1" 404 179
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+"GET /static/jazzmin/css/main.css HTTP/1.1" 304 0
+"GET /static/admin/js/core.js HTTP/1.1" 304 0
+"GET /static/vendor/adminlte/css/adminlte.min.css HTTP/1.1" 304 0
+"GET /static/vendor/select2/css/select2.min.css HTTP/1.1" 304 0
+"GET /static/admin/js/jquery.init.js HTTP/1.1" 304 0
+"GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 304 0
+"GET /static/admin/js/actions.js HTTP/1.1" 304 0
+"GET /static/admin/js/urlify.js HTTP/1.1" 304 0
+"GET /static/admin/js/prepopulate.js HTTP/1.1" 304 0
+"GET /static/admin/js/vendor/xregexp/xregexp.min.js HTTP/1.1" 304 0
+"GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 304 0
+"GET /static/vendor/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+"GET /static/img/Logo%20gold.png HTTP/1.1" 304 0
+"GET /static/jazzmin/js/main.js HTTP/1.1" 304 0
+"GET /static/vendor/select2/js/select2.min.js HTTP/1.1" 304 0
+"GET /static/vendor/adminlte/js/adminlte.min.js HTTP/1.1" 304 0
+"GET /static/jazzmin/js/change_list.js HTTP/1.1" 304 0
+"GET /static/vendor/fontawesome-free/webfonts/fa-solid-900.woff2 HTTP/1.1" 304 0
+"GET /static/vendor/fontawesome-free/webfonts/fa-regular-400.woff2 HTTP/1.1" 304 0
+"GET /admin/logout/ HTTP/1.1" 200 1581
+Not Found: /static/css/style.js
+"GET /static/css/style.js HTTP/1.1" 404 179
+"GET /admin/ HTTP/1.1" 302 0
+"GET /admin/login/?next=/admin/ HTTP/1.1" 200 2882
+Not Found: /static/css/style.js
+"GET /static/css/style.js HTTP/1.1" 404 179
+"GET /admin/login/?next=/admin/ HTTP/1.1" 200 2882
+Not Found: /static/css/style.js
+"GET /static/css/style.js HTTP/1.1" 404 179
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 8044
+"GET /static/css/style.css HTTP/1.1" 200 3529
+"GET /static/js/style.js HTTP/1.1" 200 570
+"GET /static/ckeditor/ckeditor-init.js HTTP/1.1" 200 1525
+"GET /static/img/value.svg HTTP/1.1" 200 2771
+"GET /static/ckeditor/ckeditor/ckeditor.js HTTP/1.1" 200 753458
+"GET /static/img/Logo%20gold.png HTTP/1.1" 200 179176
+"GET /static/img/vector-illustration.svg HTTP/1.1" 200 23439
+"GET /static/img/clock.svg HTTP/1.1" 200 3535
+"GET /static/img/mark.svg HTTP/1.1" 200 1052
+"GET /static/img/favicon.ico HTTP/1.1" 200 1150
+"GET /admin HTTP/1.1" 301 0
+"GET /admin/ HTTP/1.1" 302 0
+"GET /admin/login/?next=/admin/ HTTP/1.1" 200 2882
+"GET /static/vendor/fontawesome-free/css/all.min.css HTTP/1.1" 200 59344
+"GET /static/jazzmin/css/main.css HTTP/1.1" 200 16672
+Not Found: /static/css/style.js
+"GET /static/css/style.js HTTP/1.1" 404 179
+"GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 200 288580
+"GET /static/vendor/adminlte/css/adminlte.min.css HTTP/1.1" 200 1382975
+"GET /static/vendor/bootstrap/js/bootstrap.min.js HTTP/1.1" 200 62440
+"GET /static/vendor/adminlte/js/adminlte.min.js HTTP/1.1" 200 44244
+"GET /static/vendor/fontawesome-free/webfonts/fa-solid-900.woff2 HTTP/1.1" 200 78196
+/home/baytech/Desktop/mog_dynamics/mog_dynamic/settings.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /admin/login/?next=/admin/ HTTP/1.1" 200 2883
+"GET /static/vendor/adminlte/css/adminlte.min.css HTTP/1.1" 304 0
+"GET /static/css/style.css HTTP/1.1" 304 0
+"GET /static/vendor/fontawesome-free/css/all.min.css HTTP/1.1" 304 0
+"GET /static/jazzmin/css/main.css HTTP/1.1" 304 0
+"GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 304 0
+"GET /static/vendor/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+"GET /static/vendor/adminlte/js/adminlte.min.js HTTP/1.1" 304 0
+"GET /static/img/Logo%20gold.png HTTP/1.1" 304 0
+"GET /static/vendor/fontawesome-free/webfonts/fa-solid-900.woff2 HTTP/1.1" 304 0
+Watching for file changes with StatReloader
+"GET /admin/login/?next=/admin/ HTTP/1.1" 200 2883
+/home/baytech/Desktop/mog_dynamics/mog_dynamic/settings.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /admin/login/?next=/admin/ HTTP/1.1" 200 2883
+"GET /static/vendor/fontawesome-free/css/all.min.css HTTP/1.1" 304 0
+"GET /static/vendor/adminlte/css/adminlte.min.css HTTP/1.1" 304 0
+"GET /static/jazzmin/css/main.css HTTP/1.1" 304 0
+"GET /static/css/style.css HTTP/1.1" 304 0
+"GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 304 0
+"GET /static/vendor/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+"GET /static/vendor/adminlte/js/adminlte.min.js HTTP/1.1" 304 0
+"GET /static/img/Logo%20gold.png HTTP/1.1" 304 0
+"GET /static/vendor/fontawesome-free/webfonts/fa-solid-900.woff2 HTTP/1.1" 304 0
+"GET /admin/login/?next=/admin/ HTTP/1.1" 200 2883
+"GET /admin/login/?next=/admin/ HTTP/1.1" 200 2883
+Watching for file changes with StatReloader
+"GET /admin/login/?next=/admin/ HTTP/1.1" 200 2883
+"GET /admin/login/?next=/admin/ HTTP/1.1" 200 2883
+"GET /admin/login/?next=/admin/ HTTP/1.1" 200 2883
+"GET /static/vendor/fontawesome-free/css/all.min.css HTTP/1.1" 200 59344
+"GET /static/css/style.css HTTP/1.1" 200 3529
+"GET /static/jazzmin/css/main.css HTTP/1.1" 200 16672
+"GET /static/vendor/bootstrap/js/bootstrap.min.js HTTP/1.1" 200 62440
+"GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 200 288580
+"GET /static/vendor/adminlte/css/adminlte.min.css HTTP/1.1" 200 1382975
+"GET /static/img/Logo%20gold.png HTTP/1.1" 200 179176
+"GET /static/vendor/adminlte/js/adminlte.min.js HTTP/1.1" 200 44244
+"GET /static/vendor/fontawesome-free/webfonts/fa-solid-900.woff2 HTTP/1.1" 200 78196
+/home/baytech/Desktop/mog_dynamics/mog_dynamic/settings.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /admin/login/?next=/admin/ HTTP/1.1" 200 2934
+"GET /static/vendor/adminlte/img/AdminLTELogo.png HTTP/1.1" 200 2637
+/home/baytech/Desktop/mog_dynamics/mog_dynamic/settings.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /admin/login/?next=/admin/ HTTP/1.1" 200 2789
+"GET /static/vendor/fontawesome-free/css/all.min.css HTTP/1.1" 304 0
+"GET /static/vendor/adminlte/css/adminlte.min.css HTTP/1.1" 304 0
+"GET /static/jazzmin/css/main.css HTTP/1.1" 304 0
+"GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 304 0
+"GET /static/vendor/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+"GET /static/vendor/adminlte/js/adminlte.min.js HTTP/1.1" 304 0
+"GET /static/img/Logo%20gold.png HTTP/1.1" 304 0
+"GET /static/vendor/fontawesome-free/webfonts/fa-solid-900.woff2 HTTP/1.1" 304 0
+/home/baytech/Desktop/mog_dynamics/mog_dynamic/settings.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /admin/login/?next=/admin/ HTTP/1.1" 200 2789
+"GET /static/vendor/fontawesome-free/css/all.min.css HTTP/1.1" 304 0
+"GET /static/jazzmin/css/main.css HTTP/1.1" 304 0
+"GET /static/vendor/adminlte/css/adminlte.min.css HTTP/1.1" 304 0
+"GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 304 0
+"GET /static/vendor/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+"GET /static/vendor/adminlte/js/adminlte.min.js HTTP/1.1" 304 0
+"GET /static/img/Logo%20gold.png HTTP/1.1" 304 0
+"GET /static/vendor/fontawesome-free/webfonts/fa-solid-900.woff2 HTTP/1.1" 304 0
+"GET /admin/login/?next=/admin/ HTTP/1.1" 200 2789
+/home/baytech/Desktop/mog_dynamics/mog_dynamic/settings.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /admin/login/?next=/admin/ HTTP/1.1" 200 2789
+/home/baytech/Desktop/mog_dynamics/mog_dynamic/settings.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /admin/login/?next=/admin/ HTTP/1.1" 200 2840
+"GET /static/vendor/adminlte/img/AdminLTELogo.png HTTP/1.1" 304 0
+"POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+"GET /admin/ HTTP/1.1" 200 34192
+"GET /static/jazzmin/js/main.js HTTP/1.1" 200 2393
+"GET /static/vendor/fontawesome-free/webfonts/fa-regular-400.woff2 HTTP/1.1" 200 13276
+"GET /admin/ HTTP/1.1" 200 34192
+"GET /static/vendor/fontawesome-free/css/all.min.css HTTP/1.1" 304 0
+"GET /static/vendor/adminlte/css/adminlte.min.css HTTP/1.1" 304 0
+"GET /static/jazzmin/css/main.css HTTP/1.1" 304 0
+"GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 304 0
+"GET /static/vendor/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+"GET /static/vendor/adminlte/js/adminlte.min.js HTTP/1.1" 304 0
+"GET /static/vendor/fontawesome-free/webfonts/fa-solid-900.woff2 HTTP/1.1" 304 0
+"GET /admin/ HTTP/1.1" 200 34192
+"GET /admin/logout/ HTTP/1.1" 200 1522
+"GET /admin/ HTTP/1.1" 302 0
+"GET /admin/login/?next=/admin/ HTTP/1.1" 200 2840
+"GET /static/vendor/bootstrap/js/bootstrap.min.js.map HTTP/1.1" 200 187646
+"GET /static/vendor/adminlte/js/adminlte.min.js.map HTTP/1.1" 200 129651
+"GET /static/vendor/adminlte/css/adminlte.min.css.map HTTP/1.1" 200 3783134
+"GET /admin/login/?next=/admin/ HTTP/1.1" 200 2840
+"GET /static/vendor/adminlte/css/adminlte.min.css HTTP/1.1" 304 0
+"GET /static/jazzmin/css/main.css HTTP/1.1" 304 0
+"GET /static/vendor/fontawesome-free/css/all.min.css HTTP/1.1" 304 0
+"GET /static/vendor/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+"GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 304 0
+"GET /static/vendor/adminlte/js/adminlte.min.js HTTP/1.1" 304 0
+"GET /static/vendor/adminlte/img/AdminLTELogo.png HTTP/1.1" 304 0
+"GET /static/vendor/fontawesome-free/webfonts/fa-solid-900.woff2 HTTP/1.1" 304 0
+"GET /admin/login/?next=/admin/ HTTP/1.1" 200 2840
+"GET /static/vendor/fontawesome-free/css/all.min.css HTTP/1.1" 200 59344
+"GET /static/vendor/adminlte/css/adminlte.min.css HTTP/1.1" 200 1382975
+"GET /static/vendor/bootstrap/js/bootstrap.min.js HTTP/1.1" 200 62440
+"GET /static/jazzmin/css/main.css HTTP/1.1" 200 16672
+"GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 200 288580
+"GET /static/vendor/adminlte/js/adminlte.min.js HTTP/1.1" 200 44244
+"GET /static/vendor/adminlte/img/AdminLTELogo.png HTTP/1.1" 200 2637
+"GET /static/vendor/fontawesome-free/webfonts/fa-solid-900.woff2 HTTP/1.1" 200 78196
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 8044
+"GET /static/js/style.js HTTP/1.1" 200 570
+"GET /static/css/style.css HTTP/1.1" 200 3529
+"GET /static/ckeditor/ckeditor-init.js HTTP/1.1" 200 1525
+"GET /static/img/Logo%20gold.png HTTP/1.1" 200 179176
+"GET /static/ckeditor/ckeditor/ckeditor.js HTTP/1.1" 200 753458
+"GET /static/img/vector-illustration.svg HTTP/1.1" 200 23439
+"GET /static/img/value.svg HTTP/1.1" 200 2771
+"GET /static/img/clock.svg HTTP/1.1" 200 3535
+"GET /static/img/mark.svg HTTP/1.1" 200 1052
+"GET /static/img/favicon.ico HTTP/1.1" 200 1150
+"GET /admin/ HTTP/1.1" 302 0
+"GET /admin/login/?next=/admin/ HTTP/1.1" 200 2840
+"GET /static/jazzmin/css/main.css HTTP/1.1" 200 16672
+"GET /static/vendor/fontawesome-free/css/all.min.css HTTP/1.1" 200 59344
+"GET /static/vendor/bootstrap/js/bootstrap.min.js HTTP/1.1" 200 62440
+"GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 304 0
+"GET /static/vendor/adminlte/js/adminlte.min.js HTTP/1.1" 200 44244
+"GET /static/vendor/adminlte/img/AdminLTELogo.png HTTP/1.1" 200 2637
+"GET /static/vendor/adminlte/css/adminlte.min.css HTTP/1.1" 200 1382975
+"GET /static/vendor/fontawesome-free/webfonts/fa-solid-900.woff2 HTTP/1.1" 200 78196
+"POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+"GET /admin/ HTTP/1.1" 200 34186
+"GET /static/jazzmin/js/main.js HTTP/1.1" 200 2393
+"GET /static/vendor/fontawesome-free/webfonts/fa-regular-400.woff2 HTTP/1.1" 200 13276
+"GET /admin/shipping/shippingdetail/ HTTP/1.1" 200 24811
+"GET /static/admin/js/jquery.init.js HTTP/1.1" 304 0
+"GET /static/admin/js/core.js HTTP/1.1" 304 0
+"GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 304 0
+"GET /static/admin/js/actions.js HTTP/1.1" 304 0
+"GET /static/admin/js/urlify.js HTTP/1.1" 304 0
+"GET /static/admin/js/prepopulate.js HTTP/1.1" 304 0
+"GET /static/admin/js/vendor/jquery/jquery.min.js HTTP/1.1" 200 89501
+"GET /static/vendor/select2/css/select2.min.css HTTP/1.1" 200 16264
+"GET /static/admin/js/vendor/xregexp/xregexp.min.js HTTP/1.1" 200 125266
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+"GET /static/jazzmin/js/change_list.js HTTP/1.1" 200 2222
+"GET /static/vendor/select2/js/select2.min.js HTTP/1.1" 200 73170
+"GET /admin/shipping/shippingdetail/496b5a57-02ce-46f6-9962-84ce0d24b10a/change/ HTTP/1.1" 200 25450
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+"GET /static/admin/js/calendar.js HTTP/1.1" 200 8466
+"GET /static/admin/js/admin/DateTimeShortcuts.js HTTP/1.1" 200 19634
+"GET /static/admin/js/prepopulate_init.js HTTP/1.1" 304 0
+"GET /static/admin/js/change_form.js HTTP/1.1" 304 0
+"GET /static/jazzmin/js/change_form.js HTTP/1.1" 200 6002
+"GET /static/ckeditor/ckeditor/config.js?t=M2G9 HTTP/1.1" 200 336
+"GET /static/ckeditor/ckeditor/lang/en.js?t=M2G9 HTTP/1.1" 200 17445
+"GET /static/ckeditor/ckeditor/skins/moono-lisa/editor.css?t=M2G9 HTTP/1.1" 200 48309
+"GET /static/ckeditor/ckeditor/styles.js?t=M2G9 HTTP/1.1" 200 5577
+"GET /static/ckeditor/ckeditor/plugins/scayt/skins/moono-lisa/scayt.css?t=M2G9 HTTP/1.1" 200 381
+"GET /static/ckeditor/ckeditor/plugins/scayt/dialogs/dialog.css?t=M2G9 HTTP/1.1" 200 419
+"GET /static/ckeditor/ckeditor/plugins/tableselection/styles/tableselection.css?t=M2G9 HTTP/1.1" 200 1145
+"GET /static/ckeditor/ckeditor/plugins/dialog/styles/dialog.css?t=M2G9 HTTP/1.1" 200 249
+"GET /static/ckeditor/ckeditor/plugins/copyformatting/styles/copyformatting.css?t=M2G9 HTTP/1.1" 200 1511
+"GET /static/ckeditor/ckeditor/plugins/icons.png?t=M2G9 HTTP/1.1" 200 12237
+"GET /static/ckeditor/ckeditor/contents.css?t=M2G9 HTTP/1.1" 200 3092
+"GET /static/ckeditor/ckeditor/skins/moono-lisa/icons.png?t=5fe059002f HTTP/1.1" 200 12237
+/home/baytech/Desktop/mog_dynamics/apps/shipping/models.py changed, reloading.
+Watching for file changes with StatReloader
+/home/baytech/Desktop/mog_dynamics/apps/shipping/models.py changed, reloading.
+Watching for file changes with StatReloader
+/home/baytech/Desktop/mog_dynamics/apps/shipping/models.py changed, reloading.
+Watching for file changes with StatReloader
+/home/baytech/Desktop/mog_dynamics/apps/shipping/models.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /admin/shipping/shippingdetail/ HTTP/1.1" 200 24811
+"GET /admin/logistics/logistic/ HTTP/1.1" 200 24977
+"GET /static/vendor/fontawesome-free/css/all.min.css HTTP/1.1" 304 0
+"GET /static/admin/js/jquery.init.js HTTP/1.1" 304 0
+"GET /static/jazzmin/css/main.css HTTP/1.1" 304 0
+"GET /static/vendor/adminlte/css/adminlte.min.css HTTP/1.1" 304 0
+"GET /static/vendor/select2/css/select2.min.css HTTP/1.1" 304 0
+"GET /static/admin/js/core.js HTTP/1.1" 304 0
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+"GET /static/admin/js/vendor/jquery/jquery.min.js HTTP/1.1" 304 0
+"GET /static/admin/js/actions.js HTTP/1.1" 304 0
+"GET /static/admin/js/urlify.js HTTP/1.1" 304 0
+"GET /static/admin/js/vendor/xregexp/xregexp.min.js HTTP/1.1" 304 0
+"GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 304 0
+"GET /static/admin/js/prepopulate.js HTTP/1.1" 304 0
+"GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 304 0
+"GET /static/vendor/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+"GET /static/vendor/adminlte/js/adminlte.min.js HTTP/1.1" 304 0
+"GET /static/vendor/select2/js/select2.min.js HTTP/1.1" 304 0
+"GET /static/jazzmin/js/main.js HTTP/1.1" 304 0
+"GET /static/vendor/adminlte/img/AdminLTELogo.png HTTP/1.1" 304 0
+"GET /static/jazzmin/js/change_list.js HTTP/1.1" 304 0
+"GET /admin/logistics/logistic/1/change/ HTTP/1.1" 200 29539
+"GET /static/ckeditor/ckeditor-init.js HTTP/1.1" 304 0
+"GET /static/ckeditor/ckeditor/ckeditor.js HTTP/1.1" 304 0
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+"GET /static/admin/js/change_form.js HTTP/1.1" 304 0
+"GET /static/admin/js/prepopulate_init.js HTTP/1.1" 304 0
+"GET /static/jazzmin/js/change_form.js HTTP/1.1" 304 0
+"GET /static/admin/img/icon-changelink.svg HTTP/1.1" 304 0
+"GET /static/admin/img/icon-addlink.svg HTTP/1.1" 304 0
+"GET /static/ckeditor/ckeditor/config.js?t=M2G9 HTTP/1.1" 304 0
+"GET /static/ckeditor/ckeditor/skins/moono-lisa/editor.css?t=M2G9 HTTP/1.1" 304 0
+"GET /static/ckeditor/ckeditor/lang/en.js?t=M2G9 HTTP/1.1" 304 0
+"GET /static/ckeditor/ckeditor/styles.js?t=M2G9 HTTP/1.1" 304 0
+"GET /static/ckeditor/ckeditor/plugins/scayt/dialogs/dialog.css?t=M2G9 HTTP/1.1" 304 0
+"GET /static/ckeditor/ckeditor/plugins/scayt/skins/moono-lisa/scayt.css?t=M2G9 HTTP/1.1" 304 0
+"GET /static/ckeditor/ckeditor/plugins/tableselection/styles/tableselection.css?t=M2G9 HTTP/1.1" 304 0
+"GET /static/ckeditor/ckeditor/plugins/dialog/styles/dialog.css?t=M2G9 HTTP/1.1" 304 0
+"GET /static/ckeditor/ckeditor/plugins/copyformatting/styles/copyformatting.css?t=M2G9 HTTP/1.1" 304 0
+"GET /static/ckeditor/ckeditor/skins/moono-lisa/icons.png?t=5fe059002f HTTP/1.1" 304 0
+"GET /static/ckeditor/ckeditor/contents.css?t=M2G9 HTTP/1.1" 304 0
+"GET /admin/logistics/logistic/ HTTP/1.1" 200 24977
+"GET /admin/shipping/shippingdetail/ HTTP/1.1" 200 24811
+"GET /static/vendor/fontawesome-free/css/all.min.css HTTP/1.1" 304 0
+"GET /static/jazzmin/css/main.css HTTP/1.1" 304 0
+"GET /static/vendor/adminlte/css/adminlte.min.css HTTP/1.1" 304 0
+"GET /static/vendor/select2/css/select2.min.css HTTP/1.1" 304 0
+"GET /static/admin/js/vendor/jquery/jquery.min.js HTTP/1.1" 304 0
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+"GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 304 0
+"GET /static/admin/js/core.js HTTP/1.1" 304 0
+"GET /static/admin/js/jquery.init.js HTTP/1.1" 304 0
+"GET /static/admin/js/urlify.js HTTP/1.1" 304 0
+"GET /static/admin/js/actions.js HTTP/1.1" 304 0
+"GET /static/admin/js/prepopulate.js HTTP/1.1" 304 0
+"GET /static/admin/js/vendor/xregexp/xregexp.min.js HTTP/1.1" 304 0
+"GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 304 0
+"GET /static/vendor/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+"GET /static/vendor/adminlte/js/adminlte.min.js HTTP/1.1" 304 0
+"GET /static/jazzmin/js/main.js HTTP/1.1" 304 0
+"GET /static/vendor/select2/js/select2.min.js HTTP/1.1" 304 0
+"GET /static/vendor/adminlte/img/AdminLTELogo.png HTTP/1.1" 304 0
+"GET /static/jazzmin/js/change_list.js HTTP/1.1" 304 0
+"GET /admin/shipping/shippingdetail/496b5a57-02ce-46f6-9962-84ce0d24b10a/change/ HTTP/1.1" 200 25450
+"GET /static/admin/js/admin/DateTimeShortcuts.js HTTP/1.1" 304 0
+"GET /static/ckeditor/ckeditor/ckeditor.js HTTP/1.1" 304 0
+"GET /static/admin/js/calendar.js HTTP/1.1" 304 0
+"GET /static/ckeditor/ckeditor-init.js HTTP/1.1" 304 0
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+"GET /static/admin/js/change_form.js HTTP/1.1" 304 0
+"GET /static/admin/js/prepopulate_init.js HTTP/1.1" 304 0
+"GET /static/jazzmin/js/change_form.js HTTP/1.1" 304 0
+"GET /static/ckeditor/ckeditor/config.js?t=M2G9 HTTP/1.1" 304 0
+"GET /static/ckeditor/ckeditor/skins/moono-lisa/editor.css?t=M2G9 HTTP/1.1" 304 0
+"GET /static/ckeditor/ckeditor/lang/en.js?t=M2G9 HTTP/1.1" 304 0
+"GET /static/ckeditor/ckeditor/styles.js?t=M2G9 HTTP/1.1" 304 0
+"GET /static/ckeditor/ckeditor/plugins/scayt/skins/moono-lisa/scayt.css?t=M2G9 HTTP/1.1" 304 0
+"GET /static/ckeditor/ckeditor/plugins/scayt/dialogs/dialog.css?t=M2G9 HTTP/1.1" 304 0
+"GET /static/ckeditor/ckeditor/plugins/tableselection/styles/tableselection.css?t=M2G9 HTTP/1.1" 304 0
+"GET /static/ckeditor/ckeditor/plugins/dialog/styles/dialog.css?t=M2G9 HTTP/1.1" 304 0
+"GET /static/ckeditor/ckeditor/plugins/copyformatting/styles/copyformatting.css?t=M2G9 HTTP/1.1" 304 0
+"GET /static/ckeditor/ckeditor/skins/moono-lisa/icons.png?t=5fe059002f HTTP/1.1" 304 0
+"GET /static/ckeditor/ckeditor/contents.css?t=M2G9 HTTP/1.1" 304 0
+/home/baytech/Desktop/mog_dynamics/apps/shipping/admin.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /admin/shipping/shippingdetail/496b5a57-02ce-46f6-9962-84ce0d24b10a/change/ HTTP/1.1" 200 25597
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+/home/baytech/Desktop/mog_dynamics/apps/shipping/models.py changed, reloading.
+Watching for file changes with StatReloader
+/home/baytech/Desktop/mog_dynamics/apps/shipping/models.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+"GET /admin/shipping/shippingdetail/496b5a57-02ce-46f6-9962-84ce0d24b10a/change/ HTTP/1.1" 200 25514
+"GET /static/vendor/fontawesome-free/css/all.min.css HTTP/1.1" 304 0
+"GET /static/vendor/adminlte/css/adminlte.min.css HTTP/1.1" 304 0
+"GET /static/admin/js/calendar.js HTTP/1.1" 304 0
+"GET /static/admin/js/jquery.init.js HTTP/1.1" 304 0
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+"GET /static/jazzmin/css/main.css HTTP/1.1" 304 0
+"GET /static/vendor/select2/css/select2.min.css HTTP/1.1" 304 0
+"GET /static/admin/js/admin/DateTimeShortcuts.js HTTP/1.1" 304 0
+"GET /static/admin/js/core.js HTTP/1.1" 304 0
+"GET /static/admin/js/actions.js HTTP/1.1" 304 0
+"GET /static/ckeditor/ckeditor/ckeditor.js HTTP/1.1" 304 0
+"GET /static/admin/js/vendor/jquery/jquery.min.js HTTP/1.1" 304 0
+"GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 304 0
+"GET /static/admin/js/prepopulate.js HTTP/1.1" 304 0
+"GET /static/admin/js/urlify.js HTTP/1.1" 304 0
+"GET /static/ckeditor/ckeditor-init.js HTTP/1.1" 304 0
+"GET /static/admin/js/vendor/xregexp/xregexp.min.js HTTP/1.1" 304 0
+"GET /static/admin/js/change_form.js HTTP/1.1" 304 0
+"GET /static/admin/js/prepopulate_init.js HTTP/1.1" 304 0
+"GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 304 0
+"GET /static/vendor/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+"GET /static/vendor/adminlte/js/adminlte.min.js HTTP/1.1" 304 0
+"GET /static/jazzmin/js/change_form.js HTTP/1.1" 304 0
+"GET /static/vendor/select2/js/select2.min.js HTTP/1.1" 304 0
+"GET /static/vendor/adminlte/img/AdminLTELogo.png HTTP/1.1" 304 0
+"GET /static/jazzmin/js/main.js HTTP/1.1" 304 0
+"GET /static/ckeditor/ckeditor/config.js?t=M2G9 HTTP/1.1" 304 0
+"GET /static/ckeditor/ckeditor/skins/moono-lisa/editor.css?t=M2G9 HTTP/1.1" 304 0
+"GET /static/ckeditor/ckeditor/lang/en.js?t=M2G9 HTTP/1.1" 304 0
+"GET /static/ckeditor/ckeditor/styles.js?t=M2G9 HTTP/1.1" 304 0
+"GET /static/ckeditor/ckeditor/plugins/scayt/skins/moono-lisa/scayt.css?t=M2G9 HTTP/1.1" 304 0
+"GET /static/ckeditor/ckeditor/plugins/tableselection/styles/tableselection.css?t=M2G9 HTTP/1.1" 304 0
+"GET /static/ckeditor/ckeditor/plugins/scayt/dialogs/dialog.css?t=M2G9 HTTP/1.1" 304 0
+"GET /static/ckeditor/ckeditor/plugins/dialog/styles/dialog.css?t=M2G9 HTTP/1.1" 304 0
+"GET /static/ckeditor/ckeditor/plugins/copyformatting/styles/copyformatting.css?t=M2G9 HTTP/1.1" 304 0
+"GET /static/ckeditor/ckeditor/skins/moono-lisa/icons.png?t=5fe059002f HTTP/1.1" 304 0
+"GET /static/ckeditor/ckeditor/contents.css?t=M2G9 HTTP/1.1" 304 0
+"GET /admin/shipping/shippingdetail/ HTTP/1.1" 200 24811
+"GET /admin/shipping/shippingdetail/ HTTP/1.1" 200 24811
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+"GET /static/jazzmin/js/change_list.js HTTP/1.1" 304 0
+/home/baytech/Desktop/mog_dynamics/apps/shipping/models.py changed, reloading.
+Watching for file changes with StatReloader
+/home/baytech/Desktop/mog_dynamics/apps/shipping/models.py changed, reloading.
+Watching for file changes with StatReloader
+/home/baytech/Desktop/mog_dynamics/apps/shipping/models.py changed, reloading.
+Watching for file changes with StatReloader
+/home/baytech/Desktop/mog_dynamics/apps/shipping/models.py changed, reloading.
+Watching for file changes with StatReloader
+/home/baytech/Desktop/mog_dynamics/apps/shipping/models.py changed, reloading.
+Watching for file changes with StatReloader
+/home/baytech/Desktop/mog_dynamics/apps/shipping/models.py changed, reloading.
+Watching for file changes with StatReloader
+/home/baytech/Desktop/mog_dynamics/apps/shipping/models.py changed, reloading.
+Watching for file changes with StatReloader
+/home/baytech/Desktop/mog_dynamics/apps/shipping/models.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+"GET /admin/shipping/shippingdetail/ HTTP/1.1" 200 24763
+"GET /static/vendor/fontawesome-free/css/all.min.css HTTP/1.1" 304 0
+"GET /static/admin/js/jquery.init.js HTTP/1.1" 304 0
+"GET /static/vendor/adminlte/css/adminlte.min.css HTTP/1.1" 304 0
+"GET /static/jazzmin/css/main.css HTTP/1.1" 304 0
+"GET /static/admin/js/core.js HTTP/1.1" 304 0
+"GET /static/vendor/select2/css/select2.min.css HTTP/1.1" 304 0
+"GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 304 0
+"GET /static/admin/js/actions.js HTTP/1.1" 304 0
+"GET /static/admin/js/urlify.js HTTP/1.1" 304 0
+"GET /static/admin/js/vendor/jquery/jquery.min.js HTTP/1.1" 304 0
+"GET /static/admin/js/vendor/xregexp/xregexp.min.js HTTP/1.1" 304 0
+"GET /static/admin/js/prepopulate.js HTTP/1.1" 304 0
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+"GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 304 0
+"GET /static/vendor/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+"GET /static/vendor/adminlte/js/adminlte.min.js HTTP/1.1" 304 0
+"GET /static/jazzmin/js/main.js HTTP/1.1" 304 0
+"GET /static/vendor/select2/js/select2.min.js HTTP/1.1" 304 0
+"GET /static/jazzmin/js/change_list.js HTTP/1.1" 304 0
+"GET /static/vendor/adminlte/img/AdminLTELogo.png HTTP/1.1" 304 0
+"GET /admin/shipping/shippingdetail/496b5a57-02ce-46f6-9962-84ce0d24b10a/change/ HTTP/1.1" 200 25956
+"GET /static/admin/js/admin/DateTimeShortcuts.js HTTP/1.1" 304 0
+"GET /static/ckeditor/ckeditor-init.js HTTP/1.1" 304 0
+"GET /static/ckeditor/ckeditor/ckeditor.js HTTP/1.1" 304 0
+"GET /static/admin/js/calendar.js HTTP/1.1" 304 0
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+"GET /static/admin/js/change_form.js HTTP/1.1" 304 0
+"GET /static/admin/js/prepopulate_init.js HTTP/1.1" 304 0
+"GET /static/jazzmin/js/change_form.js HTTP/1.1" 304 0
+"GET /static/ckeditor/ckeditor/config.js?t=M2G9 HTTP/1.1" 304 0
+"GET /static/ckeditor/ckeditor/skins/moono-lisa/editor.css?t=M2G9 HTTP/1.1" 304 0
+"GET /static/ckeditor/ckeditor/lang/en.js?t=M2G9 HTTP/1.1" 304 0
+"GET /static/ckeditor/ckeditor/styles.js?t=M2G9 HTTP/1.1" 304 0
+"GET /static/ckeditor/ckeditor/plugins/tableselection/styles/tableselection.css?t=M2G9 HTTP/1.1" 304 0
+"GET /static/ckeditor/ckeditor/plugins/scayt/dialogs/dialog.css?t=M2G9 HTTP/1.1" 304 0
+"GET /static/ckeditor/ckeditor/plugins/scayt/skins/moono-lisa/scayt.css?t=M2G9 HTTP/1.1" 304 0
+"GET /static/ckeditor/ckeditor/plugins/dialog/styles/dialog.css?t=M2G9 HTTP/1.1" 304 0
+"GET /static/ckeditor/ckeditor/plugins/copyformatting/styles/copyformatting.css?t=M2G9 HTTP/1.1" 304 0
+"GET /static/ckeditor/ckeditor/skins/moono-lisa/icons.png?t=5fe059002f HTTP/1.1" 304 0
+"GET /static/ckeditor/ckeditor/contents.css?t=M2G9 HTTP/1.1" 304 0
+/home/baytech/Desktop/mog_dynamics/apps/common/choices.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /admin/shipping/shippingdetail/496b5a57-02ce-46f6-9962-84ce0d24b10a/change/ HTTP/1.1" 200 25956
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+/home/baytech/Desktop/mog_dynamics/apps/common/choices.py changed, reloading.
+Watching for file changes with StatReloader
+/home/baytech/Desktop/mog_dynamics/apps/common/choices.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /admin/shipping/shippingdetail/496b5a57-02ce-46f6-9962-84ce0d24b10a/change/ HTTP/1.1" 200 25956
+"GET /static/vendor/fontawesome-free/css/all.min.css HTTP/1.1" 304 0
+"GET /static/vendor/adminlte/css/adminlte.min.css HTTP/1.1" 304 0
+"GET /static/jazzmin/css/main.css HTTP/1.1" 304 0
+"GET /static/admin/js/calendar.js HTTP/1.1" 304 0
+"GET /static/admin/js/vendor/jquery/jquery.min.js HTTP/1.1" 304 0
+"GET /static/vendor/select2/css/select2.min.css HTTP/1.1" 304 0
+"GET /static/ckeditor/ckeditor/ckeditor.js HTTP/1.1" 304 0
+"GET /static/admin/js/jquery.init.js HTTP/1.1" 304 0
+"GET /static/ckeditor/ckeditor-init.js HTTP/1.1" 304 0
+"GET /static/admin/js/admin/DateTimeShortcuts.js HTTP/1.1" 304 0
+"GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 304 0
+"GET /static/admin/js/actions.js HTTP/1.1" 304 0
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+"GET /static/admin/js/core.js HTTP/1.1" 304 0
+"GET /static/admin/js/urlify.js HTTP/1.1" 304 0
+"GET /static/admin/js/vendor/xregexp/xregexp.min.js HTTP/1.1" 304 0
+"GET /static/admin/js/prepopulate.js HTTP/1.1" 304 0
+"GET /static/admin/js/change_form.js HTTP/1.1" 304 0
+"GET /static/admin/js/prepopulate_init.js HTTP/1.1" 304 0
+"GET /static/vendor/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+"GET /static/vendor/adminlte/js/adminlte.min.js HTTP/1.1" 304 0
+"GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 304 0
+"GET /static/jazzmin/js/main.js HTTP/1.1" 304 0
+"GET /static/vendor/select2/js/select2.min.js HTTP/1.1" 304 0
+"GET /static/jazzmin/js/change_form.js HTTP/1.1" 304 0
+"GET /static/vendor/adminlte/img/AdminLTELogo.png HTTP/1.1" 304 0
+"GET /static/ckeditor/ckeditor/config.js?t=M2G9 HTTP/1.1" 304 0
+"GET /static/ckeditor/ckeditor/skins/moono-lisa/editor.css?t=M2G9 HTTP/1.1" 304 0
+"GET /static/ckeditor/ckeditor/lang/en.js?t=M2G9 HTTP/1.1" 304 0
+"GET /static/ckeditor/ckeditor/styles.js?t=M2G9 HTTP/1.1" 304 0
+"GET /static/ckeditor/ckeditor/plugins/scayt/skins/moono-lisa/scayt.css?t=M2G9 HTTP/1.1" 304 0
+"GET /static/ckeditor/ckeditor/plugins/tableselection/styles/tableselection.css?t=M2G9 HTTP/1.1" 304 0
+"GET /static/ckeditor/ckeditor/plugins/scayt/dialogs/dialog.css?t=M2G9 HTTP/1.1" 304 0
+"GET /static/ckeditor/ckeditor/plugins/dialog/styles/dialog.css?t=M2G9 HTTP/1.1" 304 0
+"GET /static/ckeditor/ckeditor/plugins/copyformatting/styles/copyformatting.css?t=M2G9 HTTP/1.1" 304 0
+"GET /static/ckeditor/ckeditor/skins/moono-lisa/icons.png?t=5fe059002f HTTP/1.1" 304 0
+"GET /static/ckeditor/ckeditor/contents.css?t=M2G9 HTTP/1.1" 304 0
+"POST /admin/shipping/shippingdetail/496b5a57-02ce-46f6-9962-84ce0d24b10a/change/ HTTP/1.1" 302 0
+"GET /admin/shipping/shippingdetail/ HTTP/1.1" 200 25401
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+"GET /static/jazzmin/js/change_list.js HTTP/1.1" 304 0
+"GET /admin/shipping/shippingdetail/496b5a57-02ce-46f6-9962-84ce0d24b10a/change/ HTTP/1.1" 200 25965
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+/home/baytech/Desktop/mog_dynamics/apps/common/choices.py changed, reloading.
+Watching for file changes with StatReloader
+/home/baytech/Desktop/mog_dynamics/apps/common/choices.py changed, reloading.
+Watching for file changes with StatReloader
+/home/baytech/Desktop/mog_dynamics/apps/common/choices.py changed, reloading.
+Watching for file changes with StatReloader
+/home/baytech/Desktop/mog_dynamics/apps/common/choices.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /admin/shipping/shippingdetail/496b5a57-02ce-46f6-9962-84ce0d24b10a/change/ HTTP/1.1" 200 26114
+"GET /static/vendor/fontawesome-free/css/all.min.css HTTP/1.1" 304 0
+"GET /static/vendor/adminlte/css/adminlte.min.css HTTP/1.1" 304 0
+"GET /static/vendor/select2/css/select2.min.css HTTP/1.1" 304 0
+"GET /static/jazzmin/css/main.css HTTP/1.1" 304 0
+"GET /static/admin/js/vendor/jquery/jquery.min.js HTTP/1.1" 304 0
+"GET /static/admin/js/admin/DateTimeShortcuts.js HTTP/1.1" 304 0
+"GET /static/ckeditor/ckeditor-init.js HTTP/1.1" 304 0
+"GET /static/admin/js/calendar.js HTTP/1.1" 304 0
+"GET /static/ckeditor/ckeditor/ckeditor.js HTTP/1.1" 304 0
+"GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 304 0
+"GET /static/admin/js/jquery.init.js HTTP/1.1" 304 0
+"GET /static/admin/js/core.js HTTP/1.1" 304 0
+"GET /static/admin/js/actions.js HTTP/1.1" 304 0
+"GET /static/admin/js/urlify.js HTTP/1.1" 304 0
+"GET /static/admin/js/prepopulate.js HTTP/1.1" 304 0
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+"GET /static/admin/js/vendor/xregexp/xregexp.min.js HTTP/1.1" 304 0
+"GET /static/admin/js/change_form.js HTTP/1.1" 304 0
+"GET /static/admin/js/prepopulate_init.js HTTP/1.1" 304 0
+"GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 304 0
+"GET /static/jazzmin/js/main.js HTTP/1.1" 304 0
+"GET /static/vendor/select2/js/select2.min.js HTTP/1.1" 304 0
+"GET /static/jazzmin/js/change_form.js HTTP/1.1" 304 0
+"GET /static/vendor/adminlte/js/adminlte.min.js HTTP/1.1" 304 0
+"GET /static/vendor/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+"GET /static/vendor/adminlte/img/AdminLTELogo.png HTTP/1.1" 304 0
+"GET /static/ckeditor/ckeditor/config.js?t=M2G9 HTTP/1.1" 304 0
+"GET /static/ckeditor/ckeditor/skins/moono-lisa/editor.css?t=M2G9 HTTP/1.1" 304 0
+"GET /static/ckeditor/ckeditor/lang/en.js?t=M2G9 HTTP/1.1" 304 0
+"GET /static/ckeditor/ckeditor/styles.js?t=M2G9 HTTP/1.1" 304 0
+"GET /static/ckeditor/ckeditor/plugins/tableselection/styles/tableselection.css?t=M2G9 HTTP/1.1" 304 0
+"GET /static/ckeditor/ckeditor/plugins/scayt/dialogs/dialog.css?t=M2G9 HTTP/1.1" 304 0
+"GET /static/ckeditor/ckeditor/plugins/scayt/skins/moono-lisa/scayt.css?t=M2G9 HTTP/1.1" 304 0
+"GET /static/ckeditor/ckeditor/plugins/dialog/styles/dialog.css?t=M2G9 HTTP/1.1" 304 0
+"GET /static/ckeditor/ckeditor/plugins/copyformatting/styles/copyformatting.css?t=M2G9 HTTP/1.1" 304 0
+"GET /static/ckeditor/ckeditor/skins/moono-lisa/icons.png?t=5fe059002f HTTP/1.1" 304 0
+"GET /static/ckeditor/ckeditor/contents.css?t=M2G9 HTTP/1.1" 304 0
+"POST /admin/shipping/shippingdetail/496b5a57-02ce-46f6-9962-84ce0d24b10a/change/ HTTP/1.1" 302 0
+"GET /admin/shipping/shippingdetail/ HTTP/1.1" 200 25436
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+"GET /static/jazzmin/js/change_list.js HTTP/1.1" 304 0
+"POST /admin/shipping/shippingdetail/ HTTP/1.1" 302 0
+"GET /admin/shipping/shippingdetail/ HTTP/1.1" 200 24849
+"GET /static/vendor/fontawesome-free/css/all.min.css HTTP/1.1" 304 0
+"GET /static/admin/js/vendor/jquery/jquery.min.js HTTP/1.1" 304 0
+"GET /static/admin/js/jquery.init.js HTTP/1.1" 304 0
+"GET /static/vendor/select2/css/select2.min.css HTTP/1.1" 304 0
+"GET /static/vendor/adminlte/css/adminlte.min.css HTTP/1.1" 304 0
+"GET /static/jazzmin/css/main.css HTTP/1.1" 304 0
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+"GET /static/admin/js/prepopulate.js HTTP/1.1" 304 0
+"GET /static/admin/js/core.js HTTP/1.1" 304 0
+"GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 304 0
+"GET /static/admin/js/vendor/xregexp/xregexp.min.js HTTP/1.1" 304 0
+"GET /static/admin/js/actions.js HTTP/1.1" 304 0
+"GET /static/admin/js/urlify.js HTTP/1.1" 304 0
+"GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 304 0
+"GET /static/vendor/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+"GET /static/vendor/adminlte/js/adminlte.min.js HTTP/1.1" 304 0
+"GET /static/jazzmin/js/change_list.js HTTP/1.1" 304 0
+"GET /static/vendor/select2/js/select2.min.js HTTP/1.1" 304 0
+"GET /static/vendor/adminlte/img/AdminLTELogo.png HTTP/1.1" 304 0
+"GET /static/jazzmin/js/main.js HTTP/1.1" 304 0
+/home/baytech/Desktop/mog_dynamics/apps/shipping/admin.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /admin/shipping/shippingdetail/ HTTP/1.1" 200 24347
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+"GET /admin/shipping/shippingdetail/?o=1.5 HTTP/1.1" 200 24937
+"GET /static/vendor/fontawesome-free/css/all.min.css HTTP/1.1" 304 0
+"GET /static/vendor/adminlte/css/adminlte.min.css HTTP/1.1" 304 0
+"GET /static/jazzmin/css/main.css HTTP/1.1" 304 0
+"GET /static/admin/js/core.js HTTP/1.1" 304 0
+"GET /static/vendor/select2/css/select2.min.css HTTP/1.1" 304 0
+"GET /static/admin/js/vendor/jquery/jquery.min.js HTTP/1.1" 304 0
+"GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 304 0
+"GET /static/admin/js/actions.js HTTP/1.1" 304 0
+"GET /static/admin/js/urlify.js HTTP/1.1" 304 0
+"GET /static/admin/js/jquery.init.js HTTP/1.1" 304 0
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+"GET /static/admin/js/vendor/xregexp/xregexp.min.js HTTP/1.1" 304 0
+"GET /static/admin/js/prepopulate.js HTTP/1.1" 304 0
+"GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 304 0
+"GET /static/vendor/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+"GET /static/vendor/adminlte/js/adminlte.min.js HTTP/1.1" 304 0
+"GET /static/jazzmin/js/change_list.js HTTP/1.1" 304 0
+"GET /static/vendor/adminlte/img/AdminLTELogo.png HTTP/1.1" 304 0
+"GET /static/jazzmin/js/main.js HTTP/1.1" 304 0
+"GET /static/vendor/select2/js/select2.min.js HTTP/1.1" 304 0
+"GET /admin/shipping/shippingdetail/496b5a57-02ce-46f6-9962-84ce0d24b10a/change/?_changelist_filters=o%3D1.5 HTTP/1.1" 200 26198
+"GET /static/admin/js/calendar.js HTTP/1.1" 304 0
+"GET /static/admin/js/admin/DateTimeShortcuts.js HTTP/1.1" 304 0
+"GET /static/ckeditor/ckeditor-init.js HTTP/1.1" 304 0
+"GET /static/ckeditor/ckeditor/ckeditor.js HTTP/1.1" 304 0
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+"GET /static/admin/js/change_form.js HTTP/1.1" 304 0
+"GET /static/admin/js/prepopulate_init.js HTTP/1.1" 304 0
+"GET /static/jazzmin/js/change_form.js HTTP/1.1" 304 0
+"GET /static/ckeditor/ckeditor/config.js?t=M2G9 HTTP/1.1" 304 0
+"GET /static/ckeditor/ckeditor/skins/moono-lisa/editor.css?t=M2G9 HTTP/1.1" 304 0
+"GET /static/ckeditor/ckeditor/lang/en.js?t=M2G9 HTTP/1.1" 304 0
+"GET /static/ckeditor/ckeditor/styles.js?t=M2G9 HTTP/1.1" 304 0
+"GET /static/ckeditor/ckeditor/plugins/tableselection/styles/tableselection.css?t=M2G9 HTTP/1.1" 304 0
+"GET /static/ckeditor/ckeditor/plugins/scayt/dialogs/dialog.css?t=M2G9 HTTP/1.1" 304 0
+"GET /static/ckeditor/ckeditor/plugins/scayt/skins/moono-lisa/scayt.css?t=M2G9 HTTP/1.1" 304 0
+"GET /static/ckeditor/ckeditor/plugins/dialog/styles/dialog.css?t=M2G9 HTTP/1.1" 304 0
+"GET /static/ckeditor/ckeditor/plugins/copyformatting/styles/copyformatting.css?t=M2G9 HTTP/1.1" 304 0
+"GET /static/ckeditor/ckeditor/skins/moono-lisa/icons.png?t=5fe059002f HTTP/1.1" 304 0
+"GET /static/ckeditor/ckeditor/contents.css?t=M2G9 HTTP/1.1" 304 0
