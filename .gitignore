@@ -14,7 +14,7 @@ db.sqlite3-journal
 # Environments
 .env
 .venv
-.staticfiles
+.staticfiles/
 env/
 venv/
 ENV/
@@ -23,5 +23,6 @@ venv.bak/
 .migrations
 
 .__pycache__.py
+.__pycache__/
 
 *.sqlite3
