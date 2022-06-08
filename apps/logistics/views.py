@@ -1,8 +1,7 @@
 from django.urls.base import reverse_lazy
-from django.contrib.auth.models import User
 from .models import Logistic
 from .forms import LogisticForm
-from django.shortcuts import render, redirect, get_object_or_404
+from django.shortcuts import render, redirect
 from django.contrib.auth.forms import AuthenticationForm
 from django.contrib.auth import login, logout
 from django.contrib import messages

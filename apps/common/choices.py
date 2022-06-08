@@ -1,4 +1,4 @@
-status_choices = (
+logistic_status_choices = (
     ("Received", "Received"),
     ("In Transit", "In Transit"),
     ("Delivered", "Delivered"),
@@ -7,7 +7,7 @@ status_choices = (
     ("Unable to Contact Receiver", "Unable to Contact Receiver"),
 )
 
-shipping_choices = (
+shipping_status_choices = (
     ("Received", "Received"),
     ("In Transit", "In Transit"),
     ("Delivered", "Delivered"),
@@ -15,4 +15,9 @@ shipping_choices = (
     ("Shipment undergoing UK customs routine inspection", "Shipment undergoing UK customs routine inspection"),
     ("Shipment undergoing CA customs routine inspection", "Shipment undergoing CA customs routine inspection"),
     ("Shipment is now in transit to Lagos, Nigeria", "Shipment is now in transit to Lagos, Nigeria")
+)
+
+shipping_payment_choices = (
+    ("Paid", "Paid"),
+    ("Unpaid", "Unpaid")
 )

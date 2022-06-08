@@ -1,9 +1,9 @@
 from django.contrib import admin
-from .models import ShippingDetail
+from .models import Shipping
 
 
 
-@admin.register(ShippingDetail)
+@admin.register(Shipping)
 class AdminShipping(admin.ModelAdmin):
     list_display = ('sender_name', 'items_description', 'shipping_fee', 'tracking_no', 'received_date', 'picked_on', 'status')
     readonly_fields = ('tracking_no',)

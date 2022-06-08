@@ -1,7 +1,7 @@
 from django.db import models
 from ckeditor_uploader.fields import RichTextUploadingField
 from django.contrib.auth.models import User
-from apps.common.choices import status_choices
+from apps.common.choices import logistic_status_choices
 from apps.common.generator import random_numbers
 
 
@@ -17,7 +17,7 @@ class Logistic(models.Model):
     item_description = RichTextUploadingField(blank=True, null=True)
     received_date = models.DateTimeField(auto_now_add=True, null=True, blank=True)
     delivery_date = models.DateTimeField(auto_now_add=True, null=True, blank=True)
-    status = models.CharField(choices=status_choices, max_length=100, null=True, help_text="Update Delivery Status")
+    status = models.CharField(choices=logistic_status_choices, max_length=100, null=True, help_text="Update Delivery Status")
     updated_by = models.ForeignKey(User, on_delete=models.CASCADE)
     created_at = models.DateTimeField(auto_now_add=True)
     updated_at = models.DateTimeField(auto_now_add=True)
