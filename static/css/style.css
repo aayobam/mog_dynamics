@@ -1,4 +1,5 @@
 body, html{
+  margin: auto;
   background-image: linear-gradient(goldenrod, black, goldenrod)
 }
 
@@ -135,13 +136,13 @@ p{
   max-width: 700px;
 }
 
-.home_contact_btn{
-  margin-top: -110px !important;
+.home_getstarted_btn{
+  margin-top: -30px !important;
 }
 
 @media only screen and (max-width: 1125px){
-  .home_contact_btn{
-    margin-top: -5px !important;
+  .home_getstarted_btn{
+    margin-top: -5px;
   }
   .responsive-img {
     width: 100%;
@@ -212,6 +213,9 @@ p{
   }
   .mt-32px{
     margin-top: -32px;
+  }
+  .home_getstarted_btn{
+    margin-top: 10px !important;
   }
 }
 

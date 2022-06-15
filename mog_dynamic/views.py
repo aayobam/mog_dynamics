@@ -10,7 +10,3 @@ def home_view(request):
 def contact_view(request):
     template_name = "contact.html"
     return render(request, template_name)
-
-def about_view(request):
-    template_name = "about.html"
-    return render(request, template_name)
