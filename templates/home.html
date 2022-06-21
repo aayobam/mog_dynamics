@@ -2,11 +2,9 @@
 {% load static %}
 
 
-
 {% block content %}
-<main role="main" class="container background-gold">
-    <div class="row row-height row-padding">
-        <div class="col-md-5 body-text mt-2">
+    <div class="main1">
+        <div class="column1">
             <h1 class="text-center">MOG LOGISTICS SERVICES/ MOG DYNAMICS LTD</h1>
             <p>
                 is the number one logistic company as our reputation stand us out among the rest. 
@@ -17,72 +15,97 @@
             </p>
         </div>
 
-        <div class="col-md-7">
-            <div class="">
-                <img src="{% static 'img/vector-illustration.svg' %}" alt="Body Image" class="responsive-img">
+        <div class="column2">
+            <div>
+                <img src="{% static './images/IMG_5310.jpg' %}" alt="Body Image">
             </div>
         </div>
-        <div class="col-md-5 body-text home_getstarted_btn">
-            <a href="{% url 'contact-us'%}" class="btn background-black text-color-gold">Get Started</a>
-        </div>
-
     </div>
-</main>
 
-<main role="main" class="container background-black text-color-gold">
-    <h1 class="text-center pt-5" style="font-size: 45px;">WHY CHOOSE MOG LOGISTICS SERVICES/MOG DYNAMICS LTD</h1>
-    <div class="row text-center row-height row-padding">
-        <div class="col-md-6 body-text">
-            <img src="{% static 'img/value.svg' %}" alt="" class="mb-4">
-            <p>
-                We keep you in the know with regular updates. Consistent updates from time your goods are  received till it gets delivered.
-                Our customer services are available when help is needed.
-                Our rates are low, and friendly 
-                Very reliable and delivery are made right on time
-            </p>
+    <div class="sub-main1">
+        <a href="{% url 'contact-us'%}" class="">Get Started</a>
+    </div>
+
+    <div class="main2">
+        <h1 style="text-center">WHY CHOOSE MOG LOGISTICS SERVICES/MOG DYNAMICS LTD</h1>
+    
+        <div class="row1">
+
+            <div class="column1">
+                <div>
+                    <img src="{% static './images/IMG_6746.jpg' %}" alt="Body Image">
+                </div>
+            </div>
+
+            <div class="column2">
+                <img src="{% static 'img/value.svg' %}" alt="Body image" class="logo">
+                <p>
+                    We keep you in the know with regular updates. Consistent updates from time your goods are  received till it gets delivered.
+                    Our customer services are available when help is needed.
+                    Our rates are low, and friendly 
+                    Very reliable and delivery are made right on time
+                </p>
+            </div>
+
         </div>
 
-        <div class="col-md-6 body-text row-padding">
-            <img src="{% static 'img/mark.svg' %}" alt="" class="mb-4">
-            <p>
-                10 Days Free Storage
-                Where other shippers offers less than 5 days,
-                we gives up to 10 Days FREE storage to give you time to shop more from multiple store and also 
-                be able to ship to Nigeria as one shipment with just one shipping cost.
-            </p>
+        <div class="row2">
+
+            <div class="column1">
+                <img src="{% static 'img/mark.svg' %}" alt="" class="logo">
+                <p>
+                    10 Days Free Storage
+                    Where other shippers offers less than 5 days,
+                    we gives up to 10 Days FREE storage to give you time to shop more from multiple store and also 
+                    be able to ship to Nigeria as one shipment with just one shipping cost.
+                </p>
+            </div>
+
+            <div class="column2">
+                <div class="">
+                    <img src="{% static './images/39EBE784-87EF-4831-B8EE-2DE45077918E.JPG' %}" alt="Body Image">
+                </div>
+            </div>
+
         </div>
     </div>
-</main>
 
-<main class="container background-gold text-color-black" style="margin-bottom:3rem">
-    <h1 class="text-center pt-4 border-bottom-left">How it works</h1>
-    <div class="text-center row-height row-padding">
+    <div class="main3">
+
+        <h1 class="text-center">How it works</h1>
+
         <div class="row">
-            <div class="col-md-4">
-                <h1>1</h1>
-                <div class="border-bottom_style"></div>
-                <h4>Get A Free US Address In 30 Sec</h4>
+            <div class="column1">
+                <div class="">
+                    <img src="{% static './images/8CAE2C47-1136-4179-96B4-950CEECCD721.JPG' %}" alt="Body Image" class="responsive-img">
+                </div>
+                <h2>1</h2>
+                <h3>Get A Free US Address In 30 Sec</h3>
                 <p>
                     
                     Register here. Simply fill in your name, address, and email to register for free.
                     Start shopping on US online stores immediately using your assigned US address.
                 </p>
             </div>
-
-            <div class="col-md-4">
-                <h1>2</h1>
-                <div class="border-bottom_style"></div>
-                <h4>Shop From US Stores Online</h4>
+    
+            <div class="column2">
+                <div>
+                    <img src="{% static './images/IMG_6097.jpg' %}" alt="Body Image">
+                </div>
+                <h2>2</h2>
+                <h3>Shop From US Stores Online</h3>
                 <p>
                     Start shopping immediately on Walmart, eBay, Amazon, and over 130,00 US online stores. 
                     You can also shop on a number of other websites in the USA using our assigned US address.
                 </p>
             </div>
-
-            <div class="col-md-4 mb-5">
-                <h1>3</h1>
-                <div class="border-bottom_style"></div>
-                <h4>Use Your US Address At Checkout</h4>
+    
+            <div class="column3">
+                <div>
+                    <img src="{% static './images/4A7D258D-A09E-4542-84E3-0A6EF57A1961.JPG' %}" alt="Body Image">
+                </div>
+                <h2>3</h2>
+                <h3>Use Your US Address At Checkout</h3>
                 <p>
                     Go to your address book on any online store you are shopping 
                     rom and set your assigned US address as your delivery address.
@@ -90,11 +113,9 @@
                 </p>
             </div>
         </div>
-        <div class="btn-contact">
-            <a href="{% url 'contact-us' %}" class="btn mt-3 mb-4 background-black text-color-gold">Contact
-                Us</a>
+    
+        <div class="sub-main3">
+            <a href="{% url 'contact-us' %}">Contact Us</a>
         </div>
-
-    </div>
-</main>
+        </div>
 {% endblock %}
