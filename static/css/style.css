@@ -160,7 +160,7 @@ p {
   min-height: 40vh;
   padding: 2rem;
   margin-top: -10em;
-  margin-bottom: 20px;
+  margin-bottom: -50px;
   position: relative;
   z-index: 1000;
 }
@@ -391,7 +391,7 @@ a:hover{
   
   .main2 .row1 .column1 img{
     height: 400px;
-    width: 130% ;
+    width: 120% ;
     margin-left: -40px;
   }
   
@@ -417,7 +417,7 @@ a:hover{
   .main2 .row2 .column1{
     width: 100%;
     height: 80%;
-    margin-top: -40px;
+    margin-top: -10px;
   }
 
   .main2 .row2 .column1 .logo{
@@ -433,6 +433,7 @@ a:hover{
     height: 400px;
     width: 130% ;
     margin-left: -40px;
+    margin-top: -20px;
   }
   
 }
@@ -570,7 +571,8 @@ a:hover{
   padding: 2rem;
   position: relative;
   z-index: 1000;
-  margin-top: -100px;
+  margin-top: -8em;
+  margin-bottom: -50px;
 }
 
 .sub-main3 a{
