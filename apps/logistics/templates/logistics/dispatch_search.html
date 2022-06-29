@@ -1,21 +1,24 @@
 {% extends 'base.html' %}
-<title>{% block head_title %}Shipment Tracking{% endblock head_title %}</title>
+<title>{% block head_title %} Track Items {% endblock head_title %}</title>
 
 
 {% block content %}
-<main class="container background-gold text-color-black">
-  <div class="row row-height row-padding justify-content-center">
-    <div class="col-md-4 body-text mt-5 search-result">
-      <h2>Dispatchers Tracking Area</h2>
-      <form action="{% url 'dispatch_result' %}" method="GET">
-        <input id="shipping-search" name="q" type="text" placeholder="Input Tracking Number" class="d-flex w-100 pt-4 pb-4"/ required>
-        <div>
-          <input type="submit" value="Track Item"
-                  class="btn background-black text-color-gold mt-3 w-100 pd-1"/>
-        </div>
-      </form>
+
+  <main class="search-container container" style="color:white;">
+    <div class="row justify-content-center">
+      <div class="col-5 search-div">
+
+        <h2 class="text-center">Track Items</h2>
+        
+        <form action="{% url 'dispatch_result' %}" method="GET">
+          <input id="search-field" name="q" type="text" placeholder="Input Tracking Number" class="w-100 pt-4 pb-4" required>
+          <div>
+            <input type="submit" value="Track Item" class="w-100 pt-2 pb-2 mt-3" id="search-button">
+          </div>
+        </form>
+
+      </div>
     </div>
-  </div>
-</main>
+  </main>
 
 {% endblock content %}

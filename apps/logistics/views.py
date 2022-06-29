@@ -19,7 +19,7 @@ class SearchPageView(TemplateView):
 class SearchResultView(ListView):
     model = Logistic
     template_name = "logistics/logistic_result.html"
-    context_object_name = "logistics"
+    context_object_name = "items"
     
 
     def get_queryset(self):

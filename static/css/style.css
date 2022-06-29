@@ -4,15 +4,27 @@
   box-sizing: border-box;
 }
 
+.background-black{
+  background-color: black;
+}
+
+.text-gold{
+  color: goldenrod;
+}
+
+.text-white{
+  color: white;
+}
+
 body{
   margin: auto;
   background-color:goldenrod;
 }
 
 .container{
+  margin: auto;
   max-width: 100%;
 }
-
 
 h1{
   font-size: 50px;
@@ -24,26 +36,6 @@ p {
   font-family: 'Times New Roman', Times, serif;
 }
 
-/* FONTS AND BACKGROUND COLOR */
-.text-color-black{
-  color: black;
-}
-
-.text-color-white{
-  color: white;
-}
-
-.text-color-gold{
-  color: goldenrod;
-}
-
-.background-black{
-  background-color:rgba(0, 0, 0, 0.829);
-}
-
-.background-gold{
-  background-color:goldenrod;
-}
 
 
 /* BASE TEMPLATE STYLE (base.html) */
@@ -77,13 +69,6 @@ p {
   background: black;
 }
 
-/* footer contact icon style*/
-.footer{
-  font-size: 100px;
-  margin: 0px 70px;
-}
-
-
 .log-out{
   padding-left: -10px;
 }
@@ -107,12 +92,19 @@ p {
   }
 }
 
+/* footer contact icon style*/
+.footer{
+  font-size: 100px;
+  margin: 0px 70px;
+  color: white;
+}
 /* Site home page */
 
 .main1 {
+  background-color: goldenrod;
+  padding: 2rem;
   width: 100%;
   min-height: 100vh;
-  padding: 2rem;
   margin: auto;
   display: flex;
   flex-direction: row;
@@ -486,6 +478,7 @@ a:hover{
 /* main3 styling */
 
 .main3 {
+  background-color: goldenrod;
   margin: auto;
   width: 100%;
   min-height: 80vh;
@@ -669,10 +662,6 @@ a:hover{
   }
 }
 
-
-
-
-
 /* about page */
 
 .about_text{
@@ -707,34 +696,106 @@ a:hover{
   }
 }
 
-/* shipping section styling */
-.search-result{
-  margin-top: 50px;
+/* shipping search section */
+
+.search-container{
+  background: url('../images/46D3D963-D6FF-4D00-B1F8-DB7BB2D53CED.JPG');
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 80vh;
 }
 
-#shipping-search{
+.search-div{
+  margin-top: 120px;
+  color: white;
+  position: absolute;
+  z-index: 1000;
+}
+
+#search-field{
   border-radius: 7px;
   width: 270px;
   height: 40px;
   text-align: center;
+  border: none;
 }
 
-#shipping-search:hover{
-  border-color: black;
+#search-field:hover{
+  border-color: rgb(252, 180, 0);
   box-shadow: 5px 5px 5px black;
 }
 
-#grad {
-  background-image: linear-gradient(rgb(255,215,0)) !important;
+
+#search-button{
+  background-color: black;
+  color: goldenrod;
+  border: none;
+  border-radius: 10px !important;
+  text-align: center;
 }
 
-.capitalizing{
-  text-transform: capitalize;
+#search-button:hover{
+  color: white;
 }
 
-@media only screen and (max-width :767px){
-  .search-result{
-    margin-right: 20px;
+.new-search{
+  border: none;
+  color: gold;
+  background-color: black;
+  text-decoration: none;
+  width: 35%;
+}
+
+.new-search:hover{
+  color: white;
+  background: black;
+}
+
+@media only screen and (max-width: 850px){
+  .search-div{
+    width: 70%;
   }
 }
 
+@media only screen and (max-width: 450px){
+  .search-div{
+    width: 90%;
+  }
+}
+
+
+@media only screen and (max-width: 650px){
+  .new-search{
+    width: 70% !important;
+  }
+}
+
+@media only screen and (max-width: 326px){
+  .new-search{
+    width: 90% !important;
+  }
+}
+
+/* dispatch login */
+
+.login-button{
+  text-decoration: none;
+  color: goldenrod;
+  background: black;
+}
+
+.login-button:hover{
+  color: white;
+  background: black;
+}
+
+
+.update{
+  width: 40% !important;
+}
+
+@media only screen and (max-width: 650px){
+  .update{
+    width: 70% !important;
+  }
+}

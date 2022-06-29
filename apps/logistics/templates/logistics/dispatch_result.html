@@ -110,18 +110,18 @@
                     </div>
                 </div>
                 <div>
-                    <a href="{% url 'dispatch_update' pk=logistic_details.pk %}" class="btn btn-danger w-50 mb-2">Update Delivery</a>
+                    <a href="{% url 'dispatch_update' pk=logistic_details.pk %}" class="update btn btn-danger mb-2">Update Delivery</a>
                 </div>
-                <div>
-                    <a href="{% url 'dispatch_search' %}" class="btn w-50 background-black text-color-white">Track Another Detail</a>
+                <div class="mb-3">
+                    <a href="{% url 'dispatch_search' %}" class="btn w-50 new-search">Track Another Detail</a>
                 </div>
             </div>
 
             {% endfor %}
         {% else %}
-        <div class="background-gold">
-            <h1>record not found</h1>
-            <a href="{% url 'dispatch_search' %}" class="btn background-black text-color-gold w-50">Track Another Item</a>
+        <div class="mt-5">
+            <h1>Record not found</h1>
+            <a href="{% url 'dispatch_search' %}" class="btn new-search">Track Another Item</a>
            </div>
         {% endif %}
     </main>

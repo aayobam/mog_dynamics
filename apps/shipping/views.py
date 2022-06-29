@@ -11,13 +11,13 @@ class SearchPageView(TemplateView):
 class SearchResultView(ListView):
     model = Shipping
     template_name = "shipping/shipping_result.html"
-    context_object_name = "shippingstatus"
+    context_object_name = "items"
 
     def get_queryset(self):
         query = self.request.GET.get('q')
         if query:
-            shippingstatus = Shipping.objects.filter(
+            shipping = Shipping.objects.filter(
                 Q(tracking_no__icontains=query)
             )
-            return shippingstatus
+            return shipping
         return False

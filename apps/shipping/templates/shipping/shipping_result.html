@@ -1,89 +1,88 @@
 {% extends 'base.html' %}
+{% load static %}
 <title>{% block head_title %} Tracking Result{% endblock head_title %}</title>
 
 
 
 
 {% block content %}
-    <main class="container background-gold mb-5 text-center capitalizing">
-        {% if shippingstatus %}
-            {% for shipping_details in shippingstatus %}
-           
-            <div class="row row-height row-padding text-center">
-                <h1>Shipping Details</h1>
-                <div>
-                    <div class="mt-3">
-                        <h3>Sender Name</h3>
+    <div class="text-center">
+        {% if items %}
+            {% for item in items %}
+                <div class="text-center mb-5">
+                    <h1>Shipping Details</h1>
+                    <div>
+                        <div class="mt-3">
+                            <h3>Sender Name</h3>
+                        </div>
+                        <div class="">
+                            <p>{{item.sender_name}}</p>
+                        </div>
                     </div>
-                    <div class="">
-                        <p>{{shipping_details.sender_name}}</p>
-                    </div>
-                </div>
 
-                <div>
-                    <div class="mt-3">
-                        <h3>Item Description</h3>
+                    <div>
+                        <div class="mt-3">
+                            <h3>Item Description</h3>
+                        </div>
+                        <div class="">
+                            <p>{{item.items_description|safe}}</p>
+                        </div>
                     </div>
-                    <div class="">
-                        <p>{{shipping_details.items_description|safe}}</p>
-                    </div>
-                </div>
 
-                <div>
-                    <div class="mt-3">
-                        <h3>Shipping Fee</h3>
+                    <div>
+                        <div class="mt-3">
+                            <h3>Shipping Fee</h3>
+                        </div>
+                        <div class="">
+                            <p>{{item.shipping_fee}}</p>
+                        </div>
                     </div>
-                    <div class="">
-                        <p>₦{{shipping_details.shipping_fee}}</p>
-                    </div>
-                </div>
 
-                <div>
-                    <div class="mt-3">
-                        <h3>Tracking No</h3>
+                    <div>
+                        <div class="mt-3">
+                            <h3>Tracking No</h3>
+                        </div>
+                        <div class="">
+                        <p>{{item.tracking_no}}</p>
+                        </div>
                     </div>
-                    <div class="">
-                    <p>{{shipping_details.tracking_no}}</p>
-                    </div>
-                </div>
 
-                <div>
-                    <div class="mt-3">
-                        <h3>Received Date</h3>
+                    <div>
+                        <div class="mt-3">
+                            <h3>Received Date</h3>
+                        </div>
+                        <div class="">
+                            <p>{{item.received_date}}</p>
+                        </div>
                     </div>
-                    <div class="">
-                        <p>{{shipping_details.received_date}}</p>
+                    
+                    <div>
+                        <div class="mt-3">
+                            <h3>Picked On</h3>
+                        </div>
+                        <div class="">
+                            <p>{{item.picked_on}}</p>
+                        </div>
                     </div>
-                </div>
-                
-                <div>
-                    <div class="mt-3">
-                        <h3>Picked On</h3>
-                    </div>
-                    <div class="">
-                        <p>{{shipping_details.picked_on}}</p>
-                    </div>
-                </div>
 
-                <div>
-                    <div class="mt-3">
-                        <h3>Status</h3>
+                    <div>
+                        <div class="mt-3">
+                            <h3>Status</h3>
+                        </div>
+                        <div class="">
+                            <p>{{item.status}}</p>
+                        </div>
                     </div>
-                    <div class="">
-                        <p>{{shipping_details.status}}</p>
+                    <div>
+                        <a href="{% url 'shipping_search' %}" class="btn w-50 new-search mb-5">Track Another Detail</a>
                     </div>
                 </div>
-                <div>
-                    <a href="{% url 'shipping_search' %}" class="btn w-50 background-black text-color-white">Track Another Detail</a>
-                </div>
-            </div>
-
             {% endfor %}
-            {% else %}
-           <div class="background-gold">
-            <h1>record not found</h1>
-            <a href="{% url 'shipping_search' %}" class="btn background-black text-color-gold w-50">Track Another Shipment</a>
+        {% else %}
+           <div class="mt-5">
+               <h1>Record not found</h1>
+               <a href="{% url 'shipping_search' %}" class="btn w-50 new-search">Track Another Shipment</a>
            </div>
         {% endif %}
-    </main>
+    </div>
 {% endblock content%}

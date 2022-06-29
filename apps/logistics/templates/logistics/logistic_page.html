@@ -3,19 +3,21 @@
 
 
 {% block content %}
-<main class="container background-gold text-color-black">
-  <div class="row row-height row-padding justify-content-center">
-    <div class="col-md-4 body-text mt-5 search-result">
-      <h2>Track Item Delivery</h2>
-      <form action="{% url 'logistics_result' %}" method="get">
-        <input id="shipping-search" name="q" type="text" placeholder="Input Tracking Number" class="d-flex w-100 pt-4 pb-4"/>
-        <div>
-          <input type="submit" value="Track Delivery"
-                  class="btn background-black text-color-gold mt-3 w-100 pd-1"/>
-        </div>
-      </form>
-    </div>
-  </div>
-</main>
 
+  <main class="search-container container" style="color:white;">
+    <div class="row justify-content-center">
+      <div class="col-5 search-div">
+
+        <h2 class="text-center">Track Item Delivery</h2>
+        
+        <form action="{% url 'logistics_result' %}" method="GET">
+          <input id="search-field" name="q" type="text" placeholder="Input Tracking Number" class="w-100 pt-4 pb-4" required>
+          <div>
+            <input type="submit" value="Track Item" class="w-100 pt-2 pb-2 mt-3" id="search-button">
+          </div>
+        </form>
+
+      </div>
+    </div>
+  </main>
 {% endblock content %}
